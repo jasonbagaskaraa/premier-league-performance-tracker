@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+requests
+beautifulsoup4
+scikit-learn
+lxml
+flask
+flask-cors

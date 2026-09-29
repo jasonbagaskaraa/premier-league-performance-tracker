@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League Performance Tracker — Dashboard</title>
+    <meta name="description" content="Interactive Premier League 2025-2026 season dashboard with player analytics, team form tracking, ML predictions, and match forecasting.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ─── Sidebar Nav ──────────────────────────────────── -->
+<nav id="sidebar">
+    <div class="sidebar-brand">
+        <div class="brand-icon">⚽</div>
+        <div class="brand-text">
+            <span class="brand-title">PL Tracker</span>
+            <span class="brand-subtitle">2025 / 26</span>
+        </div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#" class="nav-link active" data-section="overview" id="nav-overview">
+            <span class="nav-icon">📊</span><span>Overview</span></a></li>
+        <li><a href="#" class="nav-link" data-section="players" id="nav-players">
+            <span class="nav-icon">🏃</span><span>Player Rankings</span></a></li>
+        <li><a href="#" class="nav-link" data-section="teams" id="nav-teams">
+            <span class="nav-icon">🏟️</span><span>Team Analytics</span></a></li>
+        <li><a href="#" class="nav-link" data-section="predictions" id="nav-predictions">
+            <span class="nav-icon">🤖</span><span>ML Predictions</span></a></li>
+        <li><a href="#" class="nav-link" data-section="matchday" id="nav-matchday">
+            <span class="nav-icon">🔮</span><span>Match Predictor</span></a></li>
+    </ul>
+    <div class="sidebar-footer">
+        <span class="status-dot"></span> Live Data Pipeline
+    </div>
+</nav>
+
+<!-- ─── Main Content ─────────────────────────────────── -->
+<main id="main-content">
+
+    <!-- ─── Section: Overview ────────────────────────── -->
+    <section id="section-overview" class="section active">
+        <div class="section-header">
+            <h1>Season Overview</h1>
+            <p class="section-subtitle">Premier League 2025-2026 — Complete Season Analytics</p>
+        </div>
+
+        <div class="kpi-grid" id="kpi-grid">
+            <!-- Filled by JS -->
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-card wide">
+                <div class="card-header">
+                    <h3>Team Goals Scored</h3>
+                    <span class="badge">Full Season</span>
+                </div>
+                <div class="chart-container"><canvas id="chart-team-goals"></canvas></div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-card">
+                <div class="card-header">
+                    <h3>Team Form Index</h3>
+                    <span class="badge badge-green">Last 5 Matches</span>
+                </div>
+                <div class="chart-container"><canvas id="chart-team-form"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <div class="card-header">
+                    <h3>Possession Distribution</h3>
+                </div>
+                <div class="chart-container"><canvas id="chart-possession"></canvas></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── Section: Player Rankings ─────────────────── -->
+    <section id="section-players" class="section">
+        <div class="section-header">
+            <h1>Player Rankings</h1>
+            <p class="section-subtitle">Composite performance scoring across all positional groups</p>
+        </div>
+
+        <div class="filter-bar" id="player-filters">
+            <select id="filter-position" class="filter-select">
+                <option value="">All Positions</option>
+            </select>
+            <select id="filter-squad" class="filter-select">
+                <option value="">All Squads</option>
+            </select>
+        </div>
+
+        <div class="table-card">
+            <table id="player-table" class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Player</th>
+                        <th>Squad</th>
+                        <th>Position</th>
+                        <th>90s</th>
+                        <th>Goals</th>
+                        <th>Assists</th>
+                        <th>G+A</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="player-table-body"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ─── Section: Team Analytics ──────────────────── -->
+    <section id="section-teams" class="section">
+        <div class="section-header">
+            <h1>Team Analytics</h1>
+            <p class="section-subtitle">Detailed club performance breakdown & form tracking</p>
+        </div>
+
+        <div class="form-table-card">
+            <div class="card-header"><h3>Current Form Status (Last 5 Matches)</h3></div>
+            <table id="form-table" class="data-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Team</th>
+                        <th>Pts (L5)</th>
+                        <th>GF (L5)</th>
+                        <th>GA (L5)</th>
+                        <th>GD (L5)</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="form-table-body"></tbody>
+            </table>
+        </div>
+
+        <div class="charts-row" style="margin-top:24px;">
+            <div class="chart-card">
+                <div class="card-header"><h3>Goals Scored vs Conceded</h3></div>
+                <div class="chart-container"><canvas id="chart-gf-ga"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <div class="card-header"><h3>Goalkeeper Performance</h3></div>
+                <div class="chart-container"><canvas id="chart-gk"></canvas></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── Section: ML Predictions ──────────────────── -->
+    <section id="section-predictions" class="section">
+        <div class="section-header">
+            <h1>ML Predictions</h1>
+            <p class="section-subtitle">Machine learning-powered player efficiency & match outcome analysis</p>
+        </div>
+
+        <div class="ml-stats-grid" id="ml-stats-grid"></div>
+
+        <div class="charts-row">
+            <div class="chart-card wide">
+                <div class="card-header">
+                    <h3>Predicted vs Actual Goal Contributions per 90</h3>
+                    <span class="badge badge-purple">Random Forest Model</span>
+                </div>
+                <div class="chart-container tall"><canvas id="chart-ml-scatter"></canvas></div>
+            </div>
+        </div>
+
+        <div class="table-card" style="margin-top:24px;">
+            <div class="card-header">
+                <h3>Player Efficiency Analysis</h3>
+                <div class="legend-inline">
+                    <span class="legend-dot overperformer"></span> Clinical Overperformer
+                    <span class="legend-dot expected"></span> As Expected
+                    <span class="legend-dot underperformer"></span> High Potential
+                </div>
+            </div>
+            <table id="ml-player-table" class="data-table">
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Squad</th>
+                        <th>Position</th>
+                        <th>90s</th>
+                        <th>G+A</th>
+                        <th>Actual/90</th>
+                        <th>Predicted/90</th>
+                        <th>Differential</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="ml-player-table-body"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ─── Section: Match Predictor ─────────────────── -->
+    <section id="section-matchday" class="section">
+        <div class="section-header">
+            <h1>Match Predictor</h1>
+            <p class="section-subtitle">Forecast any Premier League fixture using ML model & rolling team form</p>
+        </div>
+
+        <div class="predictor-card">
+            <div class="predictor-form">
+                <div class="team-select-group">
+                    <label for="select-home">Home Team</label>
+                    <select id="select-home" class="filter-select large"></select>
+                </div>
+                <div class="vs-badge">VS</div>
+                <div class="team-select-group">
+                    <label for="select-away">Away Team</label>
+                    <select id="select-away" class="filter-select large"></select>
+                </div>
+                <button id="btn-predict" class="btn-predict">
+                    <span class="btn-icon">⚡</span> Predict Match
+                </button>
+            </div>
+        </div>
+
+        <div id="prediction-result" class="prediction-result hidden">
+            <div class="result-header">
+                <span id="result-home" class="result-team"></span>
+                <span class="result-vs">vs</span>
+                <span id="result-away" class="result-team"></span>
+            </div>
+            <div class="prob-bars">
+                <div class="prob-bar-group">
+                    <div class="prob-label">Home Win</div>
+                    <div class="prob-track"><div id="bar-home" class="prob-fill home"></div></div>
+                    <div class="prob-value" id="val-home"></div>
+                </div>
+                <div class="prob-bar-group">
+                    <div class="prob-label">Draw</div>
+                    <div class="prob-track"><div id="bar-draw" class="prob-fill draw"></div></div>
+                    <div class="prob-value" id="val-draw"></div>
+                </div>
+                <div class="prob-bar-group">
+                    <div class="prob-label">Away Win</div>
+                    <div class="prob-track"><div id="bar-away" class="prob-fill away"></div></div>
+                    <div class="prob-value" id="val-away"></div>
+                </div>
+            </div>
+            <div id="result-verdict" class="result-verdict"></div>
+        </div>
+    </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

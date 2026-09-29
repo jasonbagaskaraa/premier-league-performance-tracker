@@ -1,0 +1,21 @@
+﻿rank,Squad,Wk,pts_last_5,gf_last_5,ga_last_5,gd_last_5,form_status
+1,Arsenal,38.0,15.0,8.0,1.0,7.0,Hot Form
+2,Manchester Utd,38.0,13.0,11.0,5.0,6.0,Hot Form
+3,Tottenham,38.0,10.0,6.0,4.0,2.0,Stable Form
+4,Bournemouth,38.0,9.0,8.0,4.0,4.0,Stable Form
+5,Nottingham,38.0,8.0,12.0,6.0,6.0,Stable Form
+6,Manchester City,38.0,8.0,9.0,6.0,3.0,Stable Form
+7,Leeds United,38.0,8.0,7.0,7.0,0.0,Stable Form
+8,Sunderland,38.0,8.0,6.0,8.0,-2.0,Stable Form
+9,Aston Villa,38.0,7.0,9.0,8.0,1.0,Stable Form
+10,Newcastle,38.0,7.0,7.0,6.0,1.0,Stable Form
+11,Fulham,38.0,7.0,4.0,5.0,-1.0,Stable Form
+12,Brighton,38.0,6.0,7.0,7.0,0.0,Stable Form
+13,West Ham,38.0,6.0,6.0,8.0,-2.0,Stable Form
+14,Liverpool,38.0,5.0,9.0,10.0,-1.0,Cold Form
+15,Brentford,38.0,5.0,7.0,8.0,-1.0,Cold Form
+16,Chelsea,38.0,4.0,5.0,10.0,-5.0,Cold Form
+17,Wolves,38.0,3.0,3.0,7.0,-4.0,Cold Form
+18,Everton,38.0,2.0,7.0,11.0,-4.0,Cold Form
+19,Burnley,38.0,2.0,4.0,8.0,-4.0,Cold Form
+20,Crystal Palace,38.0,2.0,6.0,12.0,-6.0,Cold Form
