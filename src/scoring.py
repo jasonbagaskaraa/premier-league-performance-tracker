@@ -27,15 +27,30 @@ def aggregate_player_records(df, num_cols):
             
     return df.groupby(group_col).agg(agg_dict).reset_index(drop=True)
 
-def classify_position(pos_str):
+def classify_position_detailed(pos_str, crs_per90=0.0):
+    """
+    Classify players into:
+    - GK: Goalkeeper
+    - CB: Center-Back (Defensive rock)
+    - FB_WB: Full-Back / Wing-Back (Hybrid dynamic role, high crossing / flank activity)
+    - CM_DM: Central / Defensive Midfielder
+    - AM_WG: Attacking Midfielder / Winger
+    - FW: Center Forward / Striker
+    """
     pos = str(pos_str).upper()
     if 'GK' in pos:
         return 'GK'
     elif 'DF' in pos:
-        return 'DF'
+        # Fullback / Wingback detection:
+        # Either explicitly hybrid (DFMF, MFDF) or high crossing volume per 90 (>= 1.0)
+        if 'MF' in pos or 'WB' in pos or 'WING' in pos or crs_per90 >= 1.0:
+            return 'FB_WB'
+        return 'CB'
     elif 'MF' in pos:
         if 'FW' in pos or 'AM' in pos or 'WING' in pos:
             return 'AM_WG'
+        if 'DF' in pos:
+            return 'FB_WB'
         return 'CM_DM'
     elif 'FW' in pos:
         return 'FW'
@@ -44,7 +59,7 @@ def classify_position(pos_str):
 def calculate_composite_scores(metrics_dir):
     """
     Calculate positional percentile performance scores (0-100 scale)
-    for DF, CM_DM, AM_WG, FW, and GK using volume, rate, and sample thresholding.
+    for CB, FB_WB, CM_DM, AM_WG, FW, and GK using volume, rate, and sample thresholding.
     """
     processed_dir = os.path.join("data", "processed")
     players_path = os.path.join(processed_dir, "players.csv")
@@ -59,7 +74,7 @@ def calculate_composite_scores(metrics_dir):
 
     clean_players = aggregate_player_records(players_df, ['Min', '90s', 'Gls', 'Ast', 'G+A', 'CrdY', 'CrdR'])
     clean_shooting = aggregate_player_records(shooting_df, ['Sh', 'SoT', 'Gls', 'PK', 'PKatt'])
-    clean_misc = aggregate_player_records(misc_df, ['CrdY', 'CrdR', 'Fls', 'Fld', 'Int', 'TklW', 'OG'])
+    clean_misc = aggregate_player_records(misc_df, ['CrdY', 'CrdR', 'Fls', 'Fld', 'Int', 'TklW', 'Crs', 'OG'])
 
     # Team Defense Calculation from GK data
     if not gk_df.empty:
@@ -73,7 +88,7 @@ def calculate_composite_scores(metrics_dir):
         team_gk = pd.DataFrame({'Squad': [], 'team_ga90': [], 'team_cs_pct': []})
 
     df = pd.merge(clean_players, clean_shooting[['Player', 'Sh', 'SoT']], on='Player', how='left')
-    df = pd.merge(df, clean_misc[['Player', 'Fls', 'Fld', 'Int', 'TklW']], on='Player', how='left').fillna(0)
+    df = pd.merge(df, clean_misc[['Player', 'Fls', 'Fld', 'Int', 'TklW', 'Crs']], on='Player', how='left').fillna(0)
     df = pd.merge(df, team_gk[['Squad', 'team_ga90', 'team_cs_pct']], on='Squad', how='left')
 
     df['90s'] = pd.to_numeric(df['90s'], errors='coerce').replace(0, np.nan)
@@ -81,42 +96,58 @@ def calculate_composite_scores(metrics_dir):
     df['ga_per90'] = (df['ga_total'] / df['90s']).fillna(0)
     df['tkl_int_total'] = df['TklW'] + df['Int']
     df['tkl_int_per90'] = (df['tkl_int_total'] / df['90s']).fillna(0)
+    df['crs_per90'] = (df['Crs'] / df['90s']).fillna(0)
     df['discipline_points'] = df['CrdY'] + (df['CrdR'] * 3)
 
     # Minimum playing time threshold: 10.0 90s (~900 mins / 10 full matches)
     qualified = df[df['90s'] >= 10.0].copy()
-    qualified['pos_group'] = qualified['Pos'].apply(classify_position)
+    qualified['pos_group'] = qualified.apply(lambda r: classify_position_detailed(r['Pos'], r['crs_per90']), axis=1)
 
     scored_chunks = []
 
     for pgroup, group in qualified.groupby('pos_group'):
         g = group.copy()
         
-        if pgroup == 'DF':
+        if pgroup == 'CB':
+            # Center-backs: Defensive solidity, low team concessions, tackles/interceptions
             g['composite_score'] = (
-                (calc_percentile_rank(g['team_ga90'], invert=True) * 0.35) +
+                (calc_percentile_rank(g['team_ga90'], invert=True) * 0.40) +
                 (calc_percentile_rank(g['team_cs_pct']) * 0.25) +
-                (calc_percentile_rank(g['tkl_int_total']) * 0.20) +
-                (calc_percentile_rank(g['90s']) * 0.20)
+                (calc_percentile_rank(g['tkl_int_per90']) * 0.20) +
+                (calc_percentile_rank(g['90s']) * 0.15)
+            )
+        elif pgroup == 'FB_WB':
+            # Fullbacks/Wingbacks: Hybrid role like midfielders!
+            # Flank progression (crossing), tackles & interceptions, and goal contributions
+            g['composite_score'] = (
+                (calc_percentile_rank(g['tkl_int_per90']) * 0.30) +
+                (calc_percentile_rank(g['crs_per90']) * 0.25) +
+                (calc_percentile_rank(g['ga_per90']) * 0.20) +
+                (calc_percentile_rank(g['team_ga90'], invert=True) * 0.15) +
+                (calc_percentile_rank(g['90s']) * 0.10)
             )
         elif pgroup == 'CM_DM':
+            # Central/Defensive Midfielders: Ball recovery + playmaking
             g['composite_score'] = (
-                (calc_percentile_rank(g['tkl_int_total']) * 0.30) +
+                (calc_percentile_rank(g['tkl_int_per90']) * 0.35) +
                 (calc_percentile_rank(g['ga_total']) * 0.25) +
-                (calc_percentile_rank(g['ga_per90']) * 0.25) +
+                (calc_percentile_rank(g['ga_per90']) * 0.20) +
                 (calc_percentile_rank(g['90s']) * 0.20)
             )
         elif pgroup == 'AM_WG':
+            # Attacking Midfielders / Wingers: High goal involvement & creative pace
             g['composite_score'] = (
                 (calc_percentile_rank(g['ga_total']) * 0.40) +
                 (calc_percentile_rank(g['ga_per90']) * 0.35) +
-                (calc_percentile_rank(g['90s']) * 0.25)
+                (calc_percentile_rank(g['crs_per90']) * 0.10) +
+                (calc_percentile_rank(g['90s']) * 0.15)
             )
         elif pgroup == 'FW':
+            # Strikers: Raw goals, efficiency, and playing volume
             g['composite_score'] = (
-                (calc_percentile_rank(g['ga_total']) * 0.40) +
+                (calc_percentile_rank(g['ga_total']) * 0.45) +
                 (calc_percentile_rank(g['ga_per90']) * 0.35) +
-                (calc_percentile_rank(g['90s']) * 0.25)
+                (calc_percentile_rank(g['90s']) * 0.20)
             )
 
         scored_chunks.append(g)
@@ -161,7 +192,14 @@ if __name__ == "__main__":
     scored_df.to_csv(save_path, index=False, encoding='utf-8-sig')
     print(f"Saved position-aware composite scores: {save_path}\n")
 
-    for pgroup, pname in [('DF', 'Defenders'), ('CM_DM', 'Central / Defensive Midfielders'), ('AM_WG', 'Attacking Midfielders & Wingers'), ('FW', 'Forwards'), ('GK', 'Goalkeepers')]:
+    for pgroup, pname in [
+        ('FW', 'Strikers / Forwards'),
+        ('AM_WG', 'Attacking Midfielders & Wingers'),
+        ('CM_DM', 'Central / Defensive Midfielders'),
+        ('FB_WB', 'Fullbacks & Wingbacks'),
+        ('CB', 'Center-Backs'),
+        ('GK', 'Goalkeepers')
+    ]:
         print(f"--- Top 5 {pname} ({pgroup}) ---")
         sub_df = scored_df[scored_df['pos_group'] == pgroup].head(5)
         print(sub_df[['rank', 'Player', 'Squad', '90s', 'composite_score']].to_string(index=False))

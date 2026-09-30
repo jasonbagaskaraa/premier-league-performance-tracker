@@ -1,317 +1,369 @@
-﻿Player,Squad,Pos,pos_group,90s,Gls,Ast,G+A,actual_ga_per90,predicted_ga_per90,ga_differential,efficiency_status,composite_score
-Erling Haaland,Manchester City,FW,FW,32.8,27,8,35,1.067,0.881,0.186,Clinical Overperformer,99.1
-Bruno Fernandes,Manchester Utd,MF,CM_DM,34.0,9,21,30,0.882,0.688,0.194,Clinical Overperformer,91.8
-Benjamin Šeško,Manchester Utd,FW,FW,18.3,11,1,12,0.656,0.652,0.004,Performing As Expected,70.7
-Rayan Cherki,Manchester City,MF,CM_DM,19.8,4,12,16,0.808,0.627,0.181,Clinical Overperformer,64.3
-Eli Junior Kroupi,Bournemouth,MFFW,AM_WG,18.6,13,0,13,0.699,0.626,0.073,Performing As Expected,83.7
-Hugo Ekitike,Liverpool,FW,FW,20.0,11,4,15,0.75,0.623,0.127,Performing As Expected,80.7
-Igor Thiago,Brentford,FW,FW,36.5,22,1,23,0.63,0.577,0.053,Performing As Expected,94.6
-Richarlison,Tottenham,FWMF,AM_WG,21.8,11,4,15,0.688,0.576,0.112,Performing As Expected,89.4
-Morgan Gibbs-White,Nottingham,MF,CM_DM,34.4,15,4,19,0.552,0.57,-0.018,Performing As Expected,75.7
-Ollie Watkins,Aston Villa,FW,FW,31.5,16,3,19,0.603,0.569,0.034,Performing As Expected,88.7
-Antoine Semenyo,Bournemouth,MF,CM_DM,35.5,17,4,21,0.592,0.555,0.037,Performing As Expected,85.8
-Jean-Philippe Mateta,Crystal Palace,FW,FW,24.6,12,0,12,0.488,0.545,-0.057,Performing As Expected,63.0
-João Pedro,Chelsea,FWMF,AM_WG,29.6,15,5,20,0.676,0.543,0.133,Performing As Expected,95.8
-Mohamed Salah,Liverpool,MF,CM_DM,23.8,7,7,14,0.588,0.541,0.047,Performing As Expected,61.8
-Danny Welbeck,Brighton,FW,FW,25.1,13,1,14,0.558,0.53,0.028,Performing As Expected,71.7
-Beto,Everton,FW,FW,17.4,9,1,10,0.575,0.529,0.046,Performing As Expected,56.9
-Zian Flemming,Burnley,FW,FW,19.7,11,0,11,0.558,0.529,0.029,Performing As Expected,59.6
-Bryan Mbeumo,Manchester Utd,MFFW,AM_WG,29.0,11,3,14,0.483,0.529,-0.046,Performing As Expected,86.2
-Dominic Calvert-Lewin,Leeds United,FW,FW,30.2,14,1,15,0.497,0.525,-0.028,Performing As Expected,76.1
-Callum Wilson,West Ham,FW,FW,13.9,7,1,8,0.576,0.518,0.058,Performing As Expected,50.9
-Cole Palmer,Chelsea,MF,CM_DM,21.7,10,1,11,0.507,0.513,-0.006,Performing As Expected,63.0
-Matheus Cunha,Manchester Utd,MFFW,AM_WG,27.7,10,2,12,0.433,0.507,-0.074,Performing As Expected,81.8
-Lukas Nmecha,Leeds United,FW,FW,12.0,6,1,7,0.583,0.502,0.081,Performing As Expected,45.0
-Leandro Trossard,Arsenal,FWMF,AM_WG,22.2,6,6,12,0.541,0.499,0.042,Performing As Expected,83.9
-Wilson Isidor,Sunderland,FW,FW,12.9,6,0,6,0.465,0.496,-0.031,Performing As Expected,33.5
-Anthony Gordon,Newcastle,FW,FW,19.9,6,2,8,0.402,0.494,-0.092,Performing As Expected,46.1
-Emi Buendía,Aston Villa,MF,CM_DM,19.5,6,2,8,0.41,0.49,-0.08,Performing As Expected,65.8
-Cody Gakpo,Liverpool,MFFW,AM_WG,30.4,7,5,12,0.395,0.488,-0.093,Performing As Expected,80.9
-Harry Wilson,Fulham,MF,CM_DM,29.7,10,7,17,0.572,0.482,0.09,Performing As Expected,76.1
-Bukayo Saka,Arsenal,FWMF,AM_WG,24.7,7,5,12,0.486,0.48,0.006,Performing As Expected,81.7
-Valentín Castellanos,West Ham,FW,FW,15.4,6,0,6,0.39,0.47,-0.08,Performing As Expected,31.5
-Phil Foden,Manchester City,MF,CM_DM,23.2,7,5,12,0.517,0.466,0.051,Performing As Expected,65.2
-Gabriel Martinelli,Arsenal,FWMF,AM_WG,12.0,1,4,5,0.417,0.466,-0.049,Performing As Expected,44.7
-Harvey Barnes,Newcastle,FWMF,AM_WG,21.8,7,1,8,0.367,0.464,-0.097,Performing As Expected,63.6
-Viktor Gyökeres,Arsenal,FW,FW,24.7,14,1,15,0.607,0.463,0.144,Performing As Expected,81.5
-Eberechi Eze,Arsenal,MFFW,AM_WG,21.0,7,2,9,0.429,0.462,-0.033,Performing As Expected,67.9
-Raúl Jiménez,Fulham,FW,FW,24.3,9,3,12,0.494,0.46,0.034,Performing As Expected,63.3
-Bruno Guimarães,Newcastle,MF,CM_DM,27.3,9,5,14,0.513,0.455,0.058,Performing As Expected,84.6
-Igor Jesus,Nottingham,FW,FW,25.5,6,4,10,0.392,0.454,-0.062,Performing As Expected,56.7
-Morgan Rogers,Aston Villa,MF,CM_DM,36.4,10,6,16,0.44,0.449,-0.009,Performing As Expected,78.5
-Patrick Dorgu,Manchester Utd,MF,CM_DM,16.1,4,4,8,0.497,0.44,0.057,Performing As Expected,67.5
-Rayan,Bournemouth,MF,CM_DM,12.3,5,2,7,0.569,0.434,0.135,Performing As Expected,44.9
-Jeremy Doku,Manchester City,MFFW,AM_WG,19.8,5,5,10,0.505,0.431,0.074,Performing As Expected,71.9
-Samuel Chukwueze,Fulham,MF,CM_DM,12.0,3,4,7,0.583,0.431,0.152,Clinical Overperformer,44.0
-Mikel Merino,Arsenal,MFFW,AM_WG,11.5,4,3,7,0.609,0.428,0.181,Clinical Overperformer,57.6
-Tijjani Reijnders,Manchester City,MF,CM_DM,18.1,5,2,7,0.387,0.428,-0.041,Performing As Expected,46.8
-Jarrod Bowen,West Ham,MFFW,AM_WG,37.8,9,11,20,0.529,0.421,0.108,Performing As Expected,95.7
-Enzo Fernández,Chelsea,MF,CM_DM,34.6,10,4,14,0.405,0.416,-0.011,Performing As Expected,81.6
-Noah Okafor,Leeds United,FWMF,AM_WG,17.3,8,1,9,0.52,0.393,0.127,Performing As Expected,66.5
-Marcus Tavernier,Bournemouth,MF,CM_DM,30.3,7,4,11,0.363,0.393,-0.03,Performing As Expected,71.4
-Evanilson,Bournemouth,FW,FW,30.5,6,1,7,0.23,0.392,-0.162,High Potential / Underconverting,41.5
-Dango Ouattara,Brentford,MF,CM_DM,25.3,7,3,10,0.395,0.387,0.008,Performing As Expected,70.1
-Ismaila Sarr,Crystal Palace,MF,CM_DM,24.2,9,1,10,0.413,0.385,0.028,Performing As Expected,58.4
-David Brooks,Bournemouth,MF,CM_DM,13.4,1,3,4,0.299,0.374,-0.075,Performing As Expected,34.5
-Jack Grealish,Everton,MF,CM_DM,18.1,2,6,8,0.442,0.367,0.075,Performing As Expected,56.6
-Jacob Murphy,Newcastle,FWMF,AM_WG,18.0,3,2,5,0.278,0.36,-0.082,Performing As Expected,38.4
-Nick Woltemade,Newcastle,FWMF,AM_WG,21.1,8,3,11,0.521,0.355,0.166,Clinical Overperformer,77.1
-Georginio Rutter,Brighton,MFFW,AM_WG,19.8,3,3,6,0.303,0.355,-0.052,Performing As Expected,49.5
-Tolu Arokodare,Wolves,FW,FW,15.8,3,1,4,0.253,0.354,-0.101,Performing As Expected,22.2
-Chris Wood,Nottingham,FW,FW,10.0,3,0,3,0.3,0.354,-0.054,Performing As Expected,15.2
-Mathys Tel,Tottenham,MFFW,AM_WG,15.0,4,1,5,0.333,0.353,-0.02,Performing As Expected,41.6
-Brian Brobbey,Sunderland,FW,FW,21.4,7,1,8,0.374,0.352,0.022,Performing As Expected,43.7
-Jack Hinshelwood,Brighton,MF,CM_DM,19.3,4,3,7,0.363,0.351,0.012,Performing As Expected,49.2
-Dominik Szoboszlai,Liverpool,MFDF,DF,35.9,6,7,13,0.362,0.35,0.012,Performing As Expected,66.8
-Amad Diallo,Manchester Utd,MF,CM_DM,26.0,2,3,5,0.192,0.345,-0.153,High Potential / Underconverting,51.9
-Martin Ødegaard,Arsenal,MF,CM_DM,15.2,1,6,7,0.461,0.345,0.116,Performing As Expected,47.5
-Thierno Barry,Everton,FW,FW,21.3,8,0,8,0.376,0.344,0.032,Performing As Expected,44.1
-Jaidon Anthony,Burnley,MF,CM_DM,30.2,8,2,10,0.331,0.343,-0.012,Performing As Expected,69.2
-Mohammed Kudus,Tottenham,MFFW,AM_WG,17.1,2,5,7,0.409,0.343,0.066,Performing As Expected,56.2
-Kevin Schade,Brentford,MFFW,AM_WG,30.5,8,3,11,0.361,0.339,0.022,Performing As Expected,75.6
-Mateus Mane,Wolves,MF,CM_DM,19.9,3,1,4,0.201,0.335,-0.134,Performing As Expected,35.0
-Omari Hutchinson,Nottingham,MF,CM_DM,18.8,1,5,6,0.319,0.333,-0.014,Performing As Expected,46.4
-Florian Wirtz,Liverpool,MF,CM_DM,26.4,5,3,8,0.303,0.333,-0.03,Performing As Expected,64.6
-Brenden Aaronson,Leeds United,MFFW,AM_WG,27.2,4,5,9,0.331,0.33,0.001,Performing As Expected,63.8
-Iliman Ndiaye,Everton,MF,CM_DM,30.9,6,3,9,0.291,0.33,-0.039,Performing As Expected,76.9
-Casemiro,Manchester Utd,MF,CM_DM,28.6,9,2,11,0.385,0.328,0.057,Performing As Expected,84.8
-Amine Adli,Bournemouth,MF,CM_DM,12.2,3,1,4,0.328,0.328,0.0,Performing As Expected,37.4
-Kiernan Dewsbury-Hall,Everton,MF,CM_DM,29.2,8,4,12,0.411,0.326,0.085,Performing As Expected,75.8
-Anton Stach,Leeds United,MF,CM_DM,26.3,5,3,8,0.304,0.326,-0.022,Performing As Expected,72.4
-Dominic Solanke,Tottenham,FW,FW,11.1,3,0,3,0.27,0.325,-0.055,Performing As Expected,15.3
-Lucas Paquetá,West Ham,MFFW,AM_WG,16.8,4,1,5,0.298,0.323,-0.025,Performing As Expected,39.3
-John McGinn,Aston Villa,MF,CM_DM,23.7,5,4,9,0.38,0.322,0.058,Performing As Expected,62.3
-Xavi Simons,Tottenham,MFFW,AM_WG,19.5,2,5,7,0.359,0.319,0.04,Performing As Expected,56.8
-Noni Madueke,Arsenal,FWMF,AM_WG,13.5,3,1,4,0.296,0.319,-0.023,Performing As Expected,29.3
-Chemsdine Talbi,Sunderland,MFFW,AM_WG,17.3,4,1,5,0.289,0.318,-0.029,Performing As Expected,39.2
-Alejandro Garnacho,Chelsea,MF,CM_DM,14.1,1,4,5,0.355,0.317,0.038,Performing As Expected,40.0
-Kaoru Mitoma,Brighton,MFFW,AM_WG,19.1,3,1,4,0.209,0.315,-0.106,Performing As Expected,30.9
-Lucas Bergvall,Tottenham,MF,CM_DM,10.7,1,3,4,0.374,0.314,0.06,Performing As Expected,34.9
-Callum Hudson-Odoi,Nottingham,MF,CM_DM,20.5,3,4,7,0.341,0.309,0.032,Performing As Expected,46.8
-Alex Iwobi,Fulham,MF,CM_DM,26.9,4,3,7,0.26,0.307,-0.047,Performing As Expected,57.4
-Marcus Edwards,Burnley,MFFW,AM_WG,11.9,1,3,4,0.336,0.306,0.03,Performing As Expected,32.6
-Adam Armstrong,Wolves,FWMF,AM_WG,12.7,2,2,4,0.315,0.303,0.012,Performing As Expected,31.1
-Habib Diarra,Sunderland,MF,CM_DM,15.6,2,2,4,0.256,0.302,-0.046,Performing As Expected,31.1
-Loum Tchaouna,Burnley,MFFW,AM_WG,14.1,2,1,3,0.213,0.301,-0.088,Performing As Expected,21.0
-Kevin,Fulham,MF,CM_DM,11.6,1,1,2,0.172,0.299,-0.127,Performing As Expected,20.0
-Pedro Neto,Chelsea,MFFW,AM_WG,29.2,5,6,11,0.377,0.296,0.081,Performing As Expected,75.4
-Evann Guessand,Crystal Palace,MF,CM_DM,10.2,1,2,3,0.294,0.294,0.0,Performing As Expected,27.0
-Diego Gómez,Brighton,MFFW,AM_WG,23.6,5,1,6,0.254,0.293,-0.039,Performing As Expected,48.2
-Wilson Odobert,Tottenham,MFFW,AM_WG,10.9,0,2,2,0.183,0.29,-0.107,Performing As Expected,11.8
-Crysencio Summerville,West Ham,MFFW,AM_WG,27.4,5,2,7,0.255,0.29,-0.035,Performing As Expected,53.3
-Lyle Foster,Burnley,FWMF,AM_WG,15.2,3,2,5,0.329,0.288,0.041,Performing As Expected,40.6
-Pape Matar Sarr,Tottenham,MF,CM_DM,15.5,2,4,6,0.387,0.286,0.101,Performing As Expected,53.1
-Nico O'Reilly,Manchester City,DFMF,DF,29.4,5,3,8,0.272,0.285,-0.013,Performing As Expected,83.0
-Joshua King,Fulham,MF,CM_DM,14.5,1,2,3,0.207,0.284,-0.077,Performing As Expected,26.0
-Hannibal Mejbri,Burnley,MF,CM_DM,13.7,1,4,5,0.365,0.281,0.084,Performing As Expected,43.8
-Jørgen Strand Larsen,Crystal Palace,FW,FW,25.6,4,1,5,0.195,0.28,-0.085,Performing As Expected,33.1
-Mikkel Damsgaard,Brentford,MF,CM_DM,22.8,4,4,8,0.351,0.279,0.072,Performing As Expected,73.2
-Tomáš Souček,West Ham,MF,CM_DM,24.4,5,0,5,0.205,0.277,-0.072,Performing As Expected,53.3
-Pascal Groß,Brighton,MF,CM_DM,18.2,1,3,4,0.22,0.273,-0.053,Performing As Expected,40.6
-Jean-Ricner Bellegarde,Wolves,MFFW,AM_WG,13.9,1,1,2,0.144,0.268,-0.124,Performing As Expected,13.9
-Yéremy Pino,Crystal Palace,MFFW,AM_WG,23.1,2,2,4,0.173,0.267,-0.094,Performing As Expected,34.9
-Rodrigo Gomes,Wolves,MFFW,AM_WG,10.7,3,0,3,0.28,0.266,0.014,Performing As Expected,19.3
-Joško Gvardiol,Manchester City,DF,DF,15.2,2,2,4,0.263,0.265,-0.002,Performing As Expected,65.0
-Yasin Ayari,Brighton,MF,CM_DM,21.4,3,3,6,0.28,0.263,0.017,Performing As Expected,62.1
-Ryan Christie,Bournemouth,MF,CM_DM,11.0,2,0,2,0.182,0.262,-0.08,Performing As Expected,26.0
-Keane Lewis-Potter,Brentford,DFMF,DF,21.9,3,3,6,0.274,0.261,0.013,Performing As Expected,45.4
-Joe Willock,Newcastle,MF,CM_DM,10.9,0,2,2,0.183,0.255,-0.072,Performing As Expected,21.1
-Mason Mount,Manchester Utd,MF,CM_DM,11.3,3,0,3,0.265,0.25,0.015,Performing As Expected,30.4
-Rodrigo Muniz,Fulham,FW,FW,11.1,1,1,2,0.18,0.249,-0.069,Performing As Expected,7.9
-Sean Longstaff,Leeds United,MF,CM_DM,11.2,2,2,4,0.357,0.247,0.11,Performing As Expected,44.0
-Maxim De Cuyper,Brighton,DFMF,DF,15.7,2,3,5,0.318,0.247,0.071,Performing As Expected,43.8
-João Palhinha,Tottenham,MF,CM_DM,24.4,5,2,7,0.287,0.247,0.04,Performing As Expected,73.9
-Daniel Muñoz,Crystal Palace,MF,CM_DM,26.7,4,3,7,0.262,0.246,0.016,Performing As Expected,72.7
-Joelinton,Newcastle,MF,CM_DM,21.7,2,1,3,0.138,0.244,-0.106,Performing As Expected,46.1
-Emile Smith Rowe,Fulham,MF,CM_DM,21.4,3,0,3,0.14,0.242,-0.102,Performing As Expected,43.2
-Hwang Hee-chan,Wolves,FWMF,AM_WG,16.1,2,2,4,0.248,0.237,0.011,Performing As Expected,28.0
-Yankuba Minteh,Brighton,MF,CM_DM,26.6,3,4,7,0.263,0.237,0.026,Performing As Expected,67.7
-Enzo Le Fée,Sunderland,MFFW,AM_WG,32.6,5,6,11,0.337,0.234,0.103,Performing As Expected,74.6
-Neco Williams,Nottingham,DF,DF,35.6,2,3,5,0.14,0.232,-0.092,Performing As Expected,67.4
-James Garner,Everton,MFDF,DF,37.9,2,7,9,0.237,0.231,0.006,Performing As Expected,79.4
-Liam Delap,Chelsea,FW,FW,12.3,1,0,1,0.081,0.229,-0.148,Performing As Expected,7.4
-Ryan Gravenberch,Liverpool,MF,CM_DM,33.2,5,3,8,0.241,0.228,0.013,Performing As Expected,79.2
-Alexis Mac Allister,Liverpool,MF,CM_DM,29.5,2,4,6,0.203,0.217,-0.014,Performing As Expected,60.9
-Declan Rice,Arsenal,MF,CM_DM,34.4,4,5,9,0.262,0.21,0.052,Performing As Expected,79.5
-Riccardo Calafiori,Arsenal,DF,DF,18.9,1,2,3,0.159,0.21,-0.051,Performing As Expected,71.5
-Jacob Ramsey,Newcastle,MF,CM_DM,16.1,2,3,5,0.311,0.207,0.104,Performing As Expected,46.5
-Nicolás Domínguez,Nottingham,MF,CM_DM,13.1,1,1,2,0.153,0.205,-0.052,Performing As Expected,28.4
-Lewis Miley,Newcastle,MFDF,DF,16.6,1,4,5,0.301,0.203,0.098,Performing As Expected,34.8
-Justin Kluivert,Bournemouth,MF,CM_DM,10.6,2,0,2,0.189,0.201,-0.012,Performing As Expected,16.3
-Alex Scott,Bournemouth,MF,CM_DM,31.7,3,1,4,0.126,0.201,-0.075,Performing As Expected,60.5
-Archie Gray,Tottenham,MFDF,DF,16.4,2,2,4,0.244,0.198,0.046,Performing As Expected,33.4
-Reece James,Chelsea,DFMF,DF,21.8,2,4,6,0.275,0.197,0.078,Performing As Expected,50.5
-Josh Cullen,Burnley,MF,CM_DM,16.8,2,2,4,0.238,0.197,0.041,Performing As Expected,47.9
-Mats Wieffer,Brighton,DF,DF,21.1,2,3,5,0.237,0.193,0.044,Performing As Expected,63.8
-Boubacar Kamara,Aston Villa,MF,CM_DM,15.7,1,3,4,0.255,0.192,0.063,Performing As Expected,40.9
-Cristian Romero,Tottenham,DF,DF,20.8,4,1,5,0.24,0.188,0.052,Performing As Expected,49.4
-Jurriën Timber,Arsenal,DF,DF,27.3,3,5,8,0.293,0.183,0.11,Performing As Expected,85.7
-Vitaly Janelt,Brentford,MF,CM_DM,16.0,1,4,5,0.312,0.182,0.13,Performing As Expected,54.7
-Douglas Luiz,Nottingham,MF,CM_DM,10.2,1,0,1,0.098,0.181,-0.083,Performing As Expected,16.1
-Youri Tielemans,Aston Villa,MF,CM_DM,20.7,0,4,4,0.193,0.177,0.016,Performing As Expected,54.1
-Lucas Digne,Aston Villa,DF,DF,20.6,0,6,6,0.291,0.174,0.117,Performing As Expected,54.2
-Malick Thiaw,Newcastle,DF,DF,32.9,4,0,4,0.122,0.171,-0.049,Performing As Expected,54.7
-Tyler Adams,Bournemouth,MF,CM_DM,19.7,2,2,4,0.203,0.171,0.032,Performing As Expected,53.2
-Quilindschy Hartman,Burnley,DF,DF,20.3,0,5,5,0.246,0.17,0.076,Performing As Expected,31.6
-Lesley Ugochukwu,Burnley,MF,CM_DM,26.0,3,1,4,0.154,0.169,-0.015,Performing As Expected,48.8
-Mateus Fernandes,West Ham,MF,CM_DM,33.5,3,4,7,0.209,0.168,0.041,Performing As Expected,77.2
-Marc Guéhi,Manchester City,DF,DF,35.0,3,3,6,0.171,0.168,0.003,Performing As Expected,92.7
-Mathias Jensen,Brentford,MF,CM_DM,25.0,3,1,4,0.16,0.167,-0.007,Performing As Expected,50.0
-Saša Lukić,Fulham,MF,CM_DM,19.3,1,2,3,0.155,0.166,-0.011,Performing As Expected,42.1
-Matty Cash,Aston Villa,DF,DF,33.5,3,3,6,0.179,0.164,0.015,Performing As Expected,67.4
-Idrissa Gueye,Everton,MF,CM_DM,23.3,2,3,5,0.215,0.161,0.054,Performing As Expected,58.4
-Daniel Ballard,Sunderland,DF,DF,23.9,2,0,2,0.084,0.161,-0.077,Performing As Expected,60.3
-Elliot Anderson,Nottingham,MF,CM_DM,37.0,4,4,8,0.216,0.16,0.056,Performing As Expected,81.5
-Ao Tanaka,Leeds United,MF,CM_DM,14.6,2,0,2,0.137,0.159,-0.022,Performing As Expected,28.8
-Malo Gusto,Chelsea,DFMF,DF,25.1,2,3,5,0.199,0.158,0.041,Performing As Expected,48.1
-Gabriel Magalhães,Arsenal,DF,DF,30.6,3,4,7,0.229,0.158,0.071,Performing As Expected,82.3
-Curtis Jones,Liverpool,MFDF,DF,21.5,1,2,3,0.14,0.157,-0.017,Performing As Expected,51.4
-Bernardo Silva,Manchester City,MF,CM_DM,31.9,2,4,6,0.188,0.156,0.032,Performing As Expected,62.2
-Martín Zubimendi,Arsenal,MF,CM_DM,33.2,5,1,6,0.181,0.155,0.026,Performing As Expected,69.8
-Amadou Onana,Aston Villa,MF,CM_DM,19.5,2,0,2,0.103,0.153,-0.05,Performing As Expected,39.0
-James Justin,Leeds United,DFMF,DF,21.1,2,1,3,0.142,0.153,-0.011,Performing As Expected,51.1
-Conor Gallagher,Tottenham,MF,CM_DM,13.2,1,1,2,0.152,0.153,-0.001,Performing As Expected,26.6
-Ibrahim Sangaré,Nottingham,MF,CM_DM,23.1,2,2,4,0.173,0.153,0.02,Performing As Expected,53.2
-Dan Ndoye,Nottingham,MF,CM_DM,13.0,1,1,2,0.154,0.152,0.002,Performing As Expected,20.6
-Virgil van Dijk,Liverpool,DF,DF,38.0,6,0,6,0.158,0.15,0.008,Performing As Expected,61.3
-Jan Paul van Hecke,Brighton,DF,DF,35.7,3,3,6,0.168,0.149,0.019,Performing As Expected,74.1
-Ryan Sessegnon,Fulham,DFMF,DF,20.3,3,1,4,0.197,0.149,0.048,Performing As Expected,51.8
-Dwight McNeil,Everton,MF,CM_DM,13.0,0,1,1,0.077,0.149,-0.072,Performing As Expected,15.8
-Michael Keane,Everton,DF,DF,28.8,3,1,4,0.139,0.149,-0.01,Performing As Expected,68.2
-Harry Maguire,Manchester Utd,DF,DF,18.4,1,2,3,0.163,0.148,0.015,Performing As Expected,34.7
-James Tarkowski,Everton,DF,DF,37.0,2,3,5,0.135,0.148,-0.013,Performing As Expected,73.2
-Brennan Johnson,Crystal Palace,MFFW,AM_WG,19.2,2,1,3,0.156,0.144,0.012,Performing As Expected,25.1
-Pedro Porro,Tottenham,DF,DF,31.1,1,2,3,0.096,0.143,-0.047,Performing As Expected,58.7
-Ian Maatsen,Aston Villa,DF,DF,17.8,0,1,1,0.056,0.141,-0.085,Performing As Expected,54.2
-Ladislav Krejčí,Wolves,DFMF,DF,26.2,2,1,3,0.115,0.14,-0.025,Performing As Expected,30.1
-Jefferson Lerma,Crystal Palace,MFDF,DF,19.3,0,2,2,0.104,0.139,-0.035,Performing As Expected,60.0
-Moisés Caicedo,Chelsea,MF,CM_DM,31.1,3,1,4,0.129,0.138,-0.009,Performing As Expected,63.6
-Konstantinos Mavropanos,West Ham,DF,DF,28.2,3,0,3,0.106,0.137,-0.031,Performing As Expected,50.7
-Hugo Bueno,Wolves,MFDF,DF,26.3,1,2,3,0.114,0.137,-0.023,Performing As Expected,34.8
-Rayan Aït-Nouri,Manchester City,DF,DF,10.8,0,2,2,0.185,0.137,0.048,Performing As Expected,62.4
-Marc Cucurella,Chelsea,DF,DF,30.1,1,4,5,0.166,0.136,0.03,Performing As Expected,54.8
-Jaka Bijol,Leeds United,DF,DF,21.0,1,2,3,0.143,0.134,0.009,Performing As Expected,41.1
-Adam Wharton,Crystal Palace,MF,CM_DM,28.4,1,5,6,0.211,0.134,0.077,Performing As Expected,67.3
-Nicolò Savona,Nottingham,DF,DF,11.4,2,0,2,0.175,0.131,0.044,Performing As Expected,31.6
-Sven Botman,Newcastle,DF,DF,20.4,1,1,2,0.098,0.129,-0.031,Performing As Expected,38.7
-Santiago Bueno,Wolves,DF,DF,28.4,3,1,4,0.141,0.129,0.012,Performing As Expected,32.1
-Sandro Tonali,Newcastle,MF,CM_DM,28.2,0,2,2,0.071,0.126,-0.055,Performing As Expected,44.1
-Oscar Bobb,Fulham,MF,CM_DM,11.5,0,1,1,0.087,0.124,-0.037,Performing As Expected,13.0
-Omar Alderete,Sunderland,DF,DF,31.1,1,1,2,0.064,0.124,-0.06,Performing As Expected,70.0
-Jacob Bruun Larsen,Burnley,MFFW,AM_WG,11.4,0,1,1,0.088,0.124,-0.036,Performing As Expected,5.8
-Ferdi Kadioglu,Brighton,DFMF,DF,34.8,1,0,1,0.029,0.124,-0.095,Performing As Expected,71.4
-Lewis Hall,Newcastle,DF,DF,24.2,1,1,2,0.083,0.124,-0.041,Performing As Expected,48.5
-Anthony Elanga,Newcastle,FWMF,AM_WG,14.7,0,1,1,0.068,0.122,-0.054,Performing As Expected,9.2
-Randal Kolo Muani,Tottenham,FWMF,AM_WG,18.5,1,1,2,0.108,0.12,-0.012,Performing As Expected,19.2
-Granit Xhaka,Sunderland,MF,CM_DM,32.3,1,6,7,0.217,0.12,0.097,Performing As Expected,72.6
-João Gomes,Wolves,MF,CM_DM,31.4,1,1,2,0.064,0.12,-0.056,Performing As Expected,54.1
-Tyrick Mitchell,Crystal Palace,MF,CM_DM,36.1,1,2,3,0.083,0.119,-0.036,Performing As Expected,60.2
-Ethan Ampadu,Leeds United,MF,CM_DM,34.7,1,1,2,0.058,0.117,-0.059,Performing As Expected,54.9
-Andy Robertson,Liverpool,DF,DF,13.1,1,0,1,0.076,0.116,-0.04,Performing As Expected,36.5
-Jordan Henderson,Brentford,MF,CM_DM,21.3,1,3,4,0.188,0.115,0.073,Performing As Expected,40.6
-Adrien Truffert,Bournemouth,DF,DF,37.5,1,5,6,0.16,0.115,0.045,Performing As Expected,71.4
-Trai Hume,Sunderland,DFMF,DF,33.7,2,1,3,0.089,0.114,-0.025,Performing As Expected,76.5
-Sepp van den Berg,Brentford,DF,DF,30.7,0,2,2,0.065,0.114,-0.049,Performing As Expected,52.9
-Timothy Castagne,Fulham,DFMF,DF,20.5,0,0,0,0.0,0.114,-0.114,Performing As Expected,52.2
-Kobbie Mainoo,Manchester Utd,MF,CM_DM,18.5,1,2,3,0.162,0.114,0.048,Performing As Expected,39.4
-Marcos Senesi,Bournemouth,DF,DF,36.5,0,5,5,0.137,0.112,0.025,Performing As Expected,70.5
-Diogo Dalot,Manchester Utd,DFMF,DF,29.0,1,3,4,0.138,0.112,0.026,Performing As Expected,49.9
-Jayden Bogle,Leeds United,MFDF,DF,31.0,1,2,3,0.097,0.107,-0.01,Performing As Expected,58.1
-El Hadji Malick Diouf,West Ham,DFMF,DF,30.1,0,5,5,0.166,0.107,0.059,Performing As Expected,45.4
-Nordi Mukiele,Sunderland,DF,DF,30.9,3,3,6,0.194,0.107,0.087,Performing As Expected,75.6
-Soungoutou Magassa,West Ham,MF,CM_DM,10.9,1,0,1,0.092,0.105,-0.013,Performing As Expected,23.6
-Djed Spence,Tottenham,DFMF,DF,22.8,0,0,0,0.0,0.105,-0.105,Performing As Expected,43.5
-Micky van de Ven,Tottenham,DF,DF,33.8,4,1,5,0.148,0.102,0.046,Performing As Expected,50.8
-Jhon Arias,Wolves,FWMF,AM_WG,12.5,1,0,1,0.08,0.101,-0.021,Performing As Expected,7.2
-James Ward-Prowse,Burnley,MF,CM_DM,12.2,0,1,1,0.082,0.1,-0.018,Performing As Expected,16.2
-Matheus Nunes,Manchester City,DF,DF,31.8,1,5,6,0.189,0.1,0.089,Performing As Expected,88.8
-Maxence Lacroix,Crystal Palace,DF,DF,34.3,1,2,3,0.087,0.099,-0.012,Performing As Expected,79.7
-Joe Rodon,Leeds United,DF,DF,32.8,2,0,2,0.061,0.098,-0.037,Performing As Expected,52.1
-David Møller Wolfe,Wolves,MFDF,DF,11.7,0,2,2,0.171,0.098,0.073,Performing As Expected,7.0
-Piero Hincapié,Arsenal,DF,DF,19.9,1,2,3,0.151,0.098,0.053,Performing As Expected,78.4
-Ilia Gruev,Leeds United,MF,CM_DM,14.7,0,3,3,0.204,0.097,0.107,Performing As Expected,32.4
-Rodrigo Bentancur,Tottenham,MF,CM_DM,20.9,1,1,2,0.096,0.093,0.003,Performing As Expected,45.9
-Trevoh Chalobah,Chelsea,DF,DF,30.9,3,0,3,0.097,0.093,0.004,Performing As Expected,52.6
-Kyle Walker-Peters,West Ham,DF,DF,15.4,1,0,1,0.065,0.091,-0.026,Performing As Expected,32.5
-Freddie Potts,West Ham,MF,CM_DM,13.0,0,1,1,0.077,0.089,-0.012,Performing As Expected,19.9
-Lucas,Burnley,MFDF,DF,15.7,0,0,0,0.0,0.089,-0.089,Performing As Expected,20.8
-Yerson Mosquera,Wolves,DF,DF,23.7,0,0,0,0.0,0.088,-0.088,Performing As Expected,31.6
-Josh Laurent,Burnley,DFMF,DF,19.6,1,0,1,0.051,0.088,-0.037,Performing As Expected,27.6
-Matthijs de Ligt,Manchester Utd,DF,DF,13.0,1,0,1,0.077,0.087,-0.01,Performing As Expected,28.3
-Nathan Collins,Brentford,DF,DF,33.1,1,2,3,0.091,0.087,0.004,Performing As Expected,59.4
-Ayden Heaven,Manchester Utd,DF,DF,10.3,0,1,1,0.097,0.086,0.011,Performing As Expected,23.8
-Fabian Schär,Newcastle,DF,DF,12.1,0,0,0,0.0,0.086,-0.086,Performing As Expected,27.6
-Álex Jiménez,Bournemouth,DFMF,DF,25.7,1,0,1,0.039,0.085,-0.046,Performing As Expected,62.1
-Yehor Yarmoliuk,Brentford,MF,CM_DM,29.5,1,2,3,0.102,0.085,0.017,Performing As Expected,55.6
-Adam Smith,Bournemouth,DF,DF,12.0,0,2,2,0.167,0.084,0.083,Performing As Expected,36.2
-Noah Sadiki,Sunderland,MF,CM_DM,32.1,0,1,1,0.031,0.083,-0.052,Performing As Expected,45.1
-Victor Lindelöf,Aston Villa,DFMF,DF,10.5,0,1,1,0.095,0.082,0.013,Performing As Expected,37.8
-Milos Kerkez,Liverpool,DF,DF,25.1,2,1,3,0.12,0.081,0.039,Performing As Expected,53.4
-Florentino Luís,Burnley,MF,CM_DM,23.4,0,2,2,0.085,0.08,0.005,Performing As Expected,49.1
-Axel Tuanzebe,Burnley,DF,DF,13.3,1,0,1,0.075,0.079,-0.004,Performing As Expected,11.9
-Jeremie Frimpong,Liverpool,DFMF,DF,11.6,0,1,1,0.086,0.078,0.008,Performing As Expected,34.8
-Daichi Kamada,Crystal Palace,MF,CM_DM,21.1,0,0,0,0.0,0.078,-0.078,Performing As Expected,30.9
-Rodri,Manchester City,MF,CM_DM,16.8,1,0,1,0.06,0.076,-0.016,Performing As Expected,24.5
-Pascal Struijk,Leeds United,DF,DF,32.6,0,1,1,0.031,0.075,-0.044,Performing As Expected,54.3
-Tim Iroegbunam,Everton,MF,CM_DM,16.5,0,2,2,0.121,0.075,0.046,Performing As Expected,42.2
-Vitaliy Mykolenko,Everton,DF,DF,32.9,0,1,1,0.03,0.074,-0.044,Performing As Expected,67.9
-Emmanuel Agbadou,Wolves,DF,DF,12.2,0,0,0,0.0,0.074,-0.074,Performing As Expected,13.7
-Joël Veltman,Brighton,DF,DF,11.8,1,0,1,0.085,0.074,0.011,Performing As Expected,45.6
-Andrey Santos,Chelsea,MF,CM_DM,14.0,1,0,1,0.071,0.073,-0.002,Performing As Expected,24.4
-Dan Burn,Newcastle,DF,DF,24.4,1,2,3,0.123,0.073,0.05,Performing As Expected,43.6
-Jake O'Brien,Everton,DF,DF,34.7,1,1,2,0.058,0.073,-0.015,Performing As Expected,67.2
-Rúben Dias,Manchester City,DF,DF,23.8,2,0,2,0.084,0.072,0.012,Performing As Expected,72.1
-Michael Kayode,Brentford,DF,DF,36.2,1,1,2,0.055,0.071,-0.016,Performing As Expected,70.5
-Luke Shaw,Manchester Utd,DF,DF,35.8,1,1,2,0.056,0.071,-0.015,Performing As Expected,61.3
-Kenny Tete,Fulham,DF,DF,19.9,1,0,1,0.05,0.071,-0.021,Performing As Expected,55.5
-Jackson Tchatchoua,Wolves,MFDF,DF,20.5,0,1,1,0.049,0.068,-0.019,Performing As Expected,19.2
-Ibrahima Konaté,Liverpool,DF,DF,34.3,1,0,1,0.029,0.068,-0.039,Performing As Expected,64.5
-William Saliba,Arsenal,DF,DF,29.0,1,0,1,0.034,0.067,-0.033,Performing As Expected,79.5
-Murillo,Nottingham,DF,DF,23.7,1,0,1,0.042,0.067,-0.025,Performing As Expected,52.0
-Destiny Udogie,Tottenham,DFMF,DF,14.9,0,1,1,0.067,0.065,0.002,Performing As Expected,32.9
-James Hill,Bournemouth,DF,DF,23.4,0,3,3,0.128,0.065,0.063,Performing As Expected,56.8
-Tino Livramento,Newcastle,DF,DF,14.8,0,1,1,0.068,0.064,0.004,Performing As Expected,26.8
-Nicolás González,Manchester City,MF,CM_DM,17.4,1,0,1,0.057,0.064,-0.007,Performing As Expected,32.9
-Joachim Andersen,Fulham,DF,DF,31.9,0,1,1,0.031,0.063,-0.032,Performing As Expected,62.1
-Axel Disasi,West Ham,DF,DF,13.9,0,0,0,0.0,0.062,-0.062,Performing As Expected,25.5
-Kristoffer Ajer,Brentford,DF,DF,20.1,0,1,1,0.05,0.061,-0.011,Performing As Expected,47.6
-Sander Berge,Fulham,MF,CM_DM,32.3,0,1,1,0.031,0.061,-0.03,Performing As Expected,46.6
-Conor Bradley,Liverpool,DF,DF,10.3,0,1,1,0.097,0.061,0.036,Performing As Expected,36.9
-Morato,Nottingham,DF,DF,14.9,1,0,1,0.067,0.059,0.008,Performing As Expected,38.2
-Kieran Trippier,Newcastle,DF,DF,17.6,0,1,1,0.057,0.059,-0.002,Performing As Expected,30.1
-Aaron Wan-Bissaka,West Ham,DFMF,DF,23.1,0,2,2,0.087,0.059,0.028,Performing As Expected,47.6
-Toti Gomes,Wolves,DF,DF,15.8,0,0,0,0.0,0.058,-0.058,Performing As Expected,12.9
-Bashir Humphreys,Burnley,DFMF,DF,17.5,0,0,0,0.0,0.058,-0.058,Performing As Expected,17.8
-Antonee Robinson,Fulham,DFMF,DF,16.6,1,0,1,0.06,0.053,0.007,Performing As Expected,51.2
-Lutsharel Geertruida,Sunderland,DFMF,DF,18.8,0,0,0,0.0,0.053,-0.053,Performing As Expected,58.1
-Lamare Bogarde,Aston Villa,MFDF,DF,11.7,0,0,0,0.0,0.053,-0.053,Performing As Expected,41.1
-Kevin Danso,Tottenham,DF,DF,16.6,0,0,0,0.0,0.05,-0.05,Performing As Expected,37.5
-Gabriel Gudmundsson,Leeds United,DFMF,DF,29.2,0,0,0,0.0,0.049,-0.049,Performing As Expected,57.1
-Leny Yoro,Manchester Utd,DF,DF,19.3,0,0,0,0.0,0.049,-0.049,Performing As Expected,41.6
-Rico Henry,Brentford,DF,DF,14.8,0,1,1,0.068,0.046,0.022,Performing As Expected,37.3
-Reinildo Mandava,Sunderland,DF,DF,21.8,0,1,1,0.046,0.046,0.0,Performing As Expected,63.8
-Kyle Walker,Burnley,DFMF,DF,34.4,0,2,2,0.058,0.046,0.012,Performing As Expected,43.3
-Wesley Fofana,Chelsea,DF,DF,19.1,0,1,1,0.052,0.042,0.01,Performing As Expected,41.4
-Jean-Clair Todibo,West Ham,DF,DF,20.2,0,1,1,0.05,0.041,0.009,Performing As Expected,36.8
-Cristhian Mosquera,Arsenal,DF,DF,11.0,0,0,0,0.0,0.04,-0.04,Performing As Expected,64.6
-Will Hughes,Crystal Palace,MF,CM_DM,17.5,0,0,0,0.0,0.04,-0.04,Performing As Expected,18.5
-Tyrone Mings,Aston Villa,DF,DF,14.7,0,0,0,0.0,0.039,-0.039,Performing As Expected,41.0
-André,Wolves,MF,CM_DM,30.7,1,0,1,0.033,0.036,-0.003,Performing As Expected,45.7
-Ola Aina,Nottingham,DF,DF,17.6,0,0,0,0.0,0.036,-0.036,Performing As Expected,45.4
-Ezri Konsa,Aston Villa,DF,DF,33.7,0,0,0,0.0,0.036,-0.036,Performing As Expected,59.8
-Carlos Baleba,Brighton,MF,CM_DM,18.4,0,0,0,0.0,0.036,-0.036,Performing As Expected,28.5
-Noussair Mazraoui,Manchester Utd,DFMF,DF,10.9,0,0,0,0.0,0.035,-0.035,Performing As Expected,27.7
-Lewis Dunk,Brighton,DF,DF,31.5,1,0,1,0.032,0.034,-0.002,Performing As Expected,64.5
-Bafodé Diakité,Bournemouth,DF,DF,14.2,0,0,0,0.0,0.034,-0.034,Performing As Expected,38.8
-Chris Richards,Crystal Palace,DF,DF,31.4,1,0,1,0.032,0.032,0.0,Performing As Expected,76.9
-Calvin Bassey,Fulham,DF,DF,28.2,1,0,1,0.035,0.032,0.003,Performing As Expected,57.3
-Max Kilman,West Ham,DF,DF,17.3,0,0,0,0.0,0.032,-0.032,Performing As Expected,26.8
-Nikola Milenković,Nottingham,DF,DF,37.5,0,0,0,0.0,0.031,-0.031,Performing As Expected,58.8
-Jorge Cuenca,Fulham,DF,DF,10.4,0,0,0,0.0,0.031,-0.031,Performing As Expected,35.3
-Abdukodir Khusanov,Manchester City,DF,DF,15.9,0,0,0,0.0,0.029,-0.029,Performing As Expected,71.3
-Hjalmar Ekdal,Burnley,DF,DF,17.1,0,0,0,0.0,0.028,-0.028,Performing As Expected,18.1
-Jaydee Canvot,Crystal Palace,DF,DF,14.8,0,0,0,0.0,0.028,-0.028,Performing As Expected,52.6
-Maxime Estève,Burnley,DF,DF,32.6,0,0,0,0.0,0.025,-0.025,Performing As Expected,39.5
-Jorrel Hato,Chelsea,DF,DF,12.8,0,0,0,0.0,0.023,-0.023,Performing As Expected,32.6
-Lisandro Martínez,Manchester Utd,DF,DF,13.7,0,0,0,0.0,0.02,-0.02,Performing As Expected,28.4
-Pau Torres,Aston Villa,DF,DF,18.6,0,0,0,0.0,0.018,-0.018,Performing As Expected,47.4
+﻿Player,Squad,Pos,pos_group,90s,Gls,Ast,G+A,target_metric_name,actual_target_metric,predicted_target_metric,performance_differential,efficiency_status,composite_score,predicted_ga_per90,actual_ga_per90,ga_differential
+Erling Haaland,Manchester City,FW,FW,32.8,27,8,35,Goal Contributions (G+A/90),1.067,0.935,0.132,Performing As Expected,99.3,0.935,1.067,0.132
+Igor Thiago,Brentford,FW,FW,36.5,22,1,23,Goal Contributions (G+A/90),0.63,0.644,-0.014,Performing As Expected,94.4,0.644,0.63,-0.014
+Jarrod Bowen,West Ham,MFFW,AM_WG,37.8,9,11,20,Goal Contributions (G+A/90),0.529,0.513,0.016,Performing As Expected,94.1,0.513,0.529,0.016
+James Garner,Everton,MFDF,FB_WB,37.9,2,7,9,Two-Way Dynamic Impact Index,5.923,5.731,0.192,Performing As Expected,92.7,5.731,5.923,0.192
+Ollie Watkins,Aston Villa,FW,FW,31.5,16,3,19,Goal Contributions (G+A/90),0.603,0.621,-0.018,Performing As Expected,88.7,0.621,0.603,-0.018
+Marc Guéhi,Manchester City,DF,CB,35.0,3,3,6,Defensive Solidity Index,4.05,3.991,0.059,Performing As Expected,88.3,3.991,4.05,0.059
+João Pedro,Chelsea,FWMF,AM_WG,29.6,15,5,20,Goal Contributions (G+A/90),0.676,0.633,0.043,Performing As Expected,88.2,0.633,0.676,0.043
+Bryan Mbeumo,Manchester Utd,MFFW,AM_WG,29.0,11,3,14,Goal Contributions (G+A/90),0.483,0.514,-0.031,Performing As Expected,85.6,0.514,0.483,-0.031
+Richarlison,Tottenham,FWMF,AM_WG,21.8,11,4,15,Goal Contributions (G+A/90),0.688,0.639,0.049,Performing As Expected,84.6,0.639,0.688,0.049
+Abdukodir Khusanov,Manchester City,DF,CB,15.9,0,0,0,Defensive Solidity Index,4.846,4.724,0.122,Performing As Expected,83.2,4.724,4.846,0.122
+Bukayo Saka,Arsenal,FWMF,AM_WG,24.7,7,5,12,Goal Contributions (G+A/90),0.486,0.504,-0.018,Performing As Expected,82.6,0.504,0.486,-0.018
+Leandro Trossard,Arsenal,FWMF,AM_WG,22.2,6,6,12,Goal Contributions (G+A/90),0.541,0.5,0.041,Performing As Expected,82.6,0.5,0.541,0.041
+Hugo Ekitike,Liverpool,FW,FW,20.0,11,4,15,Goal Contributions (G+A/90),0.75,0.675,0.075,Performing As Expected,82.4,0.675,0.75,0.075
+Cristhian Mosquera,Arsenal,DF,CB,11.0,0,0,0,Defensive Solidity Index,4.761,4.491,0.27,Performing As Expected,82.4,4.491,4.761,0.27
+Reece James,Chelsea,DFMF,FB_WB,21.8,2,4,6,Two-Way Dynamic Impact Index,5.706,5.496,0.21,Performing As Expected,82.3,5.496,5.706,0.21
+Viktor Gyökeres,Arsenal,FW,FW,24.7,14,1,15,Goal Contributions (G+A/90),0.607,0.604,0.003,Performing As Expected,82.2,0.604,0.607,0.003
+Casemiro,Manchester Utd,MF,CM_DM,28.6,9,2,11,Two-Way Dynamic Impact Index,3.465,3.482,-0.017,Performing As Expected,81.2,3.482,3.465,-0.017
+Eli Junior Kroupi,Bournemouth,MFFW,AM_WG,18.6,13,0,13,Goal Contributions (G+A/90),0.699,0.645,0.054,Performing As Expected,79.9,0.645,0.699,0.054
+Elliot Anderson,Nottingham,MF,CM_DM,37.0,4,4,8,Two-Way Dynamic Impact Index,4.946,5.08,-0.134,Performing As Expected,79.1,5.08,4.946,-0.134
+Cody Gakpo,Liverpool,MFFW,AM_WG,30.4,7,5,12,Goal Contributions (G+A/90),0.395,0.405,-0.01,Performing As Expected,77.8,0.405,0.395,-0.01
+Mateus Fernandes,West Ham,MF,CM_DM,33.5,3,4,7,Two-Way Dynamic Impact Index,3.997,3.889,0.108,Performing As Expected,77.5,3.889,3.997,0.108
+Gabriel Magalhães,Arsenal,DF,CB,30.6,3,4,7,Defensive Solidity Index,3.497,3.339,0.158,Performing As Expected,77.1,3.339,3.497,0.158
+Bruno Guimarães,Newcastle,MF,CM_DM,27.3,9,5,14,Two-Way Dynamic Impact Index,4.059,3.694,0.365,Performing As Expected,76.9,3.694,4.059,0.365
+Matheus Cunha,Manchester Utd,MFFW,AM_WG,27.7,10,2,12,Goal Contributions (G+A/90),0.433,0.48,-0.047,Performing As Expected,76.9,0.48,0.433,-0.047
+Bruno Fernandes,Manchester Utd,MF,CM_DM,34.0,9,21,30,Two-Way Dynamic Impact Index,5.1,4.694,0.406,Elite Two-Way Engine,76.8,4.694,5.1,0.406
+João Palhinha,Tottenham,MF,CM_DM,24.4,5,2,7,Two-Way Dynamic Impact Index,4.143,3.952,0.191,Performing As Expected,76.6,3.952,4.143,0.191
+Dominic Calvert-Lewin,Leeds United,FW,FW,30.2,14,1,15,Goal Contributions (G+A/90),0.497,0.55,-0.053,Performing As Expected,76.1,0.55,0.497,-0.053
+Pedro Neto,Chelsea,MFFW,AM_WG,29.2,5,6,11,Goal Contributions (G+A/90),0.377,0.384,-0.007,Performing As Expected,76.1,0.384,0.377,-0.007
+Neco Williams,Nottingham,DF,FB_WB,35.6,2,3,5,Two-Way Dynamic Impact Index,4.823,4.803,0.02,Performing As Expected,76.0,4.803,4.823,0.02
+William Saliba,Arsenal,DF,CB,29.0,1,0,1,Defensive Solidity Index,3.435,3.271,0.164,Performing As Expected,75.9,3.271,3.435,0.164
+Maxence Lacroix,Crystal Palace,DF,CB,34.3,1,2,3,Defensive Solidity Index,3.766,3.764,0.002,Performing As Expected,75.8,3.764,3.766,0.002
+Patrick Dorgu,Manchester Utd,MF,CM_DM,16.1,4,4,8,Two-Way Dynamic Impact Index,5.019,4.698,0.321,Performing As Expected,75.6,4.698,5.019,0.321
+Nordi Mukiele,Sunderland,DF,FB_WB,30.9,3,3,6,Two-Way Dynamic Impact Index,4.045,3.915,0.13,Performing As Expected,75.2,3.915,4.045,0.13
+Chris Richards,Crystal Palace,DF,CB,31.4,1,0,1,Defensive Solidity Index,3.83,3.764,0.066,Performing As Expected,73.9,3.764,3.83,0.066
+Antonee Robinson,Fulham,DFMF,FB_WB,16.6,1,0,1,Two-Way Dynamic Impact Index,5.5,5.319,0.181,Performing As Expected,73.8,5.319,5.5,0.181
+Joško Gvardiol,Manchester City,DF,CB,15.2,2,2,4,Defensive Solidity Index,3.673,3.466,0.207,Performing As Expected,73.7,3.466,3.673,0.207
+Ryan Gravenberch,Liverpool,MF,CM_DM,33.2,5,3,8,Two-Way Dynamic Impact Index,2.837,2.855,-0.018,Performing As Expected,73.5,2.855,2.837,-0.018
+Jeremy Doku,Manchester City,MFFW,AM_WG,19.8,5,5,10,Goal Contributions (G+A/90),0.505,0.47,0.035,Performing As Expected,73.2,0.47,0.505,0.035
+Quilindschy Hartman,Burnley,DF,FB_WB,20.3,0,5,5,Two-Way Dynamic Impact Index,4.931,4.733,0.198,Performing As Expected,72.7,4.733,4.931,0.198
+Mikkel Damsgaard,Brentford,MF,CM_DM,22.8,4,4,8,Two-Way Dynamic Impact Index,4.737,4.672,0.065,Performing As Expected,72.3,4.672,4.737,0.065
+Adrien Truffert,Bournemouth,DF,FB_WB,37.5,1,5,6,Two-Way Dynamic Impact Index,4.261,4.293,-0.032,Performing As Expected,72.3,4.293,4.261,-0.032
+Benjamin Šeško,Manchester Utd,FW,FW,18.3,11,1,12,Goal Contributions (G+A/90),0.656,0.634,0.022,Performing As Expected,72.2,0.634,0.656,0.022
+Daniel Muñoz,Crystal Palace,MF,CM_DM,26.7,4,3,7,Two-Way Dynamic Impact Index,4.019,3.848,0.171,Performing As Expected,72.1,3.848,4.019,0.171
+Danny Welbeck,Brighton,FW,FW,25.1,13,1,14,Goal Contributions (G+A/90),0.558,0.561,-0.003,Performing As Expected,71.9,0.561,0.558,-0.003
+Enzo Le Fée,Sunderland,MFFW,AM_WG,32.6,5,6,11,Goal Contributions (G+A/90),0.337,0.37,-0.033,Performing As Expected,71.4,0.37,0.337,-0.033
+Pedro Porro,Tottenham,DF,FB_WB,31.1,1,2,3,Two-Way Dynamic Impact Index,5.733,5.384,0.349,Performing As Expected,71.1,5.384,5.733,0.349
+Nick Woltemade,Newcastle,FWMF,AM_WG,21.1,8,3,11,Goal Contributions (G+A/90),0.521,0.524,-0.003,Performing As Expected,70.9,0.524,0.521,-0.003
+Antoine Semenyo,Bournemouth,MF,CM_DM,35.5,17,4,21,Two-Way Dynamic Impact Index,2.651,2.492,0.159,Performing As Expected,70.5,2.492,2.651,0.159
+Rayan Aït-Nouri,Manchester City,DF,FB_WB,10.8,0,2,2,Two-Way Dynamic Impact Index,4.241,4.033,0.208,Performing As Expected,70.1,4.033,4.241,0.208
+Rúben Dias,Manchester City,DF,CB,23.8,2,0,2,Defensive Solidity Index,2.983,3.064,-0.081,Performing As Expected,69.9,3.064,2.983,-0.081
+Ryan Sessegnon,Fulham,DFMF,FB_WB,20.3,3,1,4,Two-Way Dynamic Impact Index,3.941,3.859,0.082,Performing As Expected,69.3,3.859,3.941,0.082
+Jan Paul van Hecke,Brighton,DF,CB,35.7,3,3,6,Defensive Solidity Index,3.676,3.583,0.093,Performing As Expected,68.9,3.583,3.676,0.093
+Declan Rice,Arsenal,MF,CM_DM,34.4,4,5,9,Two-Way Dynamic Impact Index,4.369,4.425,-0.056,Performing As Expected,68.3,4.425,4.369,-0.056
+Enzo Fernández,Chelsea,MF,CM_DM,34.6,10,4,14,Two-Way Dynamic Impact Index,2.908,2.87,0.038,Performing As Expected,67.8,2.87,2.908,0.038
+Kevin Schade,Brentford,MFFW,AM_WG,30.5,8,3,11,Goal Contributions (G+A/90),0.361,0.439,-0.078,Performing As Expected,67.8,0.439,0.361,-0.078
+Mats Wieffer,Brighton,DF,CB,21.1,2,3,5,Defensive Solidity Index,4.723,4.48,0.243,Performing As Expected,67.7,4.48,4.723,0.243
+Dominik Szoboszlai,Liverpool,MFDF,FB_WB,35.9,6,7,13,Two-Way Dynamic Impact Index,4.538,4.554,-0.016,Performing As Expected,66.7,4.554,4.538,-0.016
+Michael Keane,Everton,DF,CB,28.8,3,1,4,Defensive Solidity Index,3.539,3.533,0.006,Performing As Expected,66.4,3.533,3.539,0.006
+Noah Okafor,Leeds United,FWMF,AM_WG,17.3,8,1,9,Goal Contributions (G+A/90),0.52,0.492,0.028,Performing As Expected,66.4,0.492,0.52,0.028
+Anton Stach,Leeds United,MF,CM_DM,26.3,5,3,8,Two-Way Dynamic Impact Index,4.867,4.784,0.083,Performing As Expected,66.3,4.784,4.867,0.083
+Lucas Digne,Aston Villa,DF,FB_WB,20.6,0,6,6,Two-Way Dynamic Impact Index,4.427,4.46,-0.033,Performing As Expected,66.1,4.46,4.427,-0.033
+Iliman Ndiaye,Everton,MF,CM_DM,30.9,6,3,9,Two-Way Dynamic Impact Index,2.994,2.946,0.048,Performing As Expected,65.9,2.946,2.994,0.048
+Moisés Caicedo,Chelsea,MF,CM_DM,31.1,3,1,4,Two-Way Dynamic Impact Index,3.704,3.843,-0.139,Performing As Expected,65.9,3.843,3.704,-0.139
+Hugo Bueno,Wolves,MFDF,FB_WB,26.3,1,2,3,Two-Way Dynamic Impact Index,5.281,5.12,0.161,Performing As Expected,65.4,5.12,5.281,0.161
+Harry Wilson,Fulham,MF,CM_DM,29.7,10,7,17,Two-Way Dynamic Impact Index,3.586,3.615,-0.029,Performing As Expected,65.3,3.615,3.586,-0.029
+Matheus Nunes,Manchester City,DF,FB_WB,31.8,1,5,6,Two-Way Dynamic Impact Index,3.327,3.194,0.133,Performing As Expected,64.7,3.194,3.327,0.133
+Martín Zubimendi,Arsenal,MF,CM_DM,33.2,5,1,6,Two-Way Dynamic Impact Index,2.777,2.837,-0.06,Performing As Expected,64.7,2.837,2.777,-0.06
+Omar Alderete,Sunderland,DF,CB,31.1,1,1,2,Defensive Solidity Index,3.091,3.066,0.025,Performing As Expected,64.6,3.066,3.091,0.025
+Emi Buendía,Aston Villa,MF,CM_DM,19.5,6,2,8,Two-Way Dynamic Impact Index,2.872,2.652,0.22,Performing As Expected,64.6,2.652,2.872,0.22
+Marcos Senesi,Bournemouth,DF,CB,36.5,0,5,5,Defensive Solidity Index,3.596,3.674,-0.078,Performing As Expected,64.4,3.674,3.596,-0.078
+Morgan Rogers,Aston Villa,MF,CM_DM,36.4,10,6,16,Two-Way Dynamic Impact Index,2.209,2.221,-0.012,Performing As Expected,64.4,2.221,2.209,-0.012
+Jaydee Canvot,Crystal Palace,DF,CB,14.8,0,0,0,Defensive Solidity Index,3.643,3.693,-0.05,Performing As Expected,64.3,3.693,3.643,-0.05
+Harvey Barnes,Newcastle,FWMF,AM_WG,21.8,7,1,8,Goal Contributions (G+A/90),0.367,0.409,-0.042,Performing As Expected,64.2,0.409,0.367,-0.042
+Kiernan Dewsbury-Hall,Everton,MF,CM_DM,29.2,8,4,12,Two-Way Dynamic Impact Index,3.521,3.544,-0.023,Performing As Expected,64.1,3.544,3.521,-0.023
+James Tarkowski,Everton,DF,CB,37.0,2,3,5,Defensive Solidity Index,3.016,3.08,-0.064,Performing As Expected,64.0,3.08,3.016,-0.064
+Vitaly Janelt,Brentford,MF,CM_DM,16.0,1,4,5,Two-Way Dynamic Impact Index,4.744,4.627,0.117,Performing As Expected,63.8,4.627,4.744,0.117
+Raúl Jiménez,Fulham,FW,FW,24.3,9,3,12,Goal Contributions (G+A/90),0.494,0.478,0.016,Performing As Expected,63.7,0.478,0.494,0.016
+Morgan Gibbs-White,Nottingham,MF,CM_DM,34.4,15,4,19,Two-Way Dynamic Impact Index,2.131,2.176,-0.045,Performing As Expected,63.7,2.176,2.131,-0.045
+Yasin Ayari,Brighton,MF,CM_DM,21.4,3,3,6,Two-Way Dynamic Impact Index,3.252,3.024,0.228,Performing As Expected,63.3,3.024,3.252,0.228
+Jurriën Timber,Arsenal,DF,FB_WB,27.3,3,5,8,Two-Way Dynamic Impact Index,3.275,3.085,0.19,Performing As Expected,63.2,3.085,3.275,0.19
+Jean-Philippe Mateta,Crystal Palace,FW,FW,24.6,12,0,12,Goal Contributions (G+A/90),0.488,0.531,-0.043,Performing As Expected,63.1,0.531,0.488,-0.043
+Eberechi Eze,Arsenal,MFFW,AM_WG,21.0,7,2,9,Goal Contributions (G+A/90),0.429,0.448,-0.019,Performing As Expected,63.0,0.448,0.429,-0.019
+Piero Hincapié,Arsenal,DF,FB_WB,19.9,1,2,3,Two-Way Dynamic Impact Index,3.503,3.65,-0.147,Performing As Expected,63.0,3.65,3.503,-0.147
+Granit Xhaka,Sunderland,MF,CM_DM,32.3,1,6,7,Two-Way Dynamic Impact Index,3.471,3.401,0.07,Performing As Expected,62.8,3.401,3.471,0.07
+Adam Wharton,Crystal Palace,MF,CM_DM,28.4,1,5,6,Two-Way Dynamic Impact Index,3.746,3.591,0.155,Performing As Expected,62.4,3.591,3.746,0.155
+Mohammed Kudus,Tottenham,MFFW,AM_WG,17.1,2,5,7,Goal Contributions (G+A/90),0.409,0.392,0.017,Performing As Expected,62.4,0.392,0.409,0.017
+Maxim De Cuyper,Brighton,DFMF,FB_WB,15.7,2,3,5,Two-Way Dynamic Impact Index,3.777,3.763,0.014,Performing As Expected,62.3,3.763,3.777,0.014
+Dango Ouattara,Brentford,MF,CM_DM,25.3,7,3,10,Two-Way Dynamic Impact Index,3.787,3.679,0.108,Performing As Expected,61.8,3.679,3.787,0.108
+Yankuba Minteh,Brighton,MF,CM_DM,26.6,3,4,7,Two-Way Dynamic Impact Index,4.741,4.608,0.133,Performing As Expected,61.4,4.608,4.741,0.133
+Marcus Tavernier,Bournemouth,MF,CM_DM,30.3,7,4,11,Two-Way Dynamic Impact Index,3.271,3.412,-0.141,Performing As Expected,60.8,3.412,3.271,-0.141
+Zian Flemming,Burnley,FW,FW,19.7,11,0,11,Goal Contributions (G+A/90),0.558,0.539,0.019,Performing As Expected,60.6,0.539,0.558,0.019
+Sean Longstaff,Leeds United,MF,CM_DM,11.2,2,2,4,Two-Way Dynamic Impact Index,5.679,5.361,0.318,Performing As Expected,60.2,5.361,5.679,0.318
+Matty Cash,Aston Villa,DF,FB_WB,33.5,3,3,6,Two-Way Dynamic Impact Index,3.504,3.573,-0.069,Performing As Expected,60.0,3.573,3.504,-0.069
+Ian Maatsen,Aston Villa,DF,FB_WB,17.8,0,1,1,Two-Way Dynamic Impact Index,4.051,3.904,0.147,Performing As Expected,60.0,3.904,4.051,0.147
+Pape Matar Sarr,Tottenham,MF,CM_DM,15.5,2,4,6,Two-Way Dynamic Impact Index,3.045,2.856,0.189,Performing As Expected,59.6,2.856,3.045,0.189
+Tyrick Mitchell,Crystal Palace,MF,CM_DM,36.1,1,2,3,Two-Way Dynamic Impact Index,3.992,3.845,0.147,Performing As Expected,59.5,3.845,3.992,0.147
+Jaidon Anthony,Burnley,MF,CM_DM,30.2,8,2,10,Two-Way Dynamic Impact Index,2.781,2.881,-0.1,Performing As Expected,59.5,2.881,2.781,-0.1
+Daniel Ballard,Sunderland,DF,CB,23.9,2,0,2,Defensive Solidity Index,2.902,3.036,-0.134,Performing As Expected,59.0,3.036,2.902,-0.134
+Brenden Aaronson,Leeds United,MFFW,AM_WG,27.2,4,5,9,Goal Contributions (G+A/90),0.331,0.367,-0.036,Performing As Expected,58.9,0.367,0.331,-0.036
+Kenny Tete,Fulham,DF,FB_WB,19.9,1,0,1,Two-Way Dynamic Impact Index,3.975,3.918,0.057,Performing As Expected,58.7,3.918,3.975,0.057
+Joël Veltman,Brighton,DF,FB_WB,11.8,1,0,1,Two-Way Dynamic Impact Index,3.788,3.798,-0.01,Performing As Expected,58.6,3.798,3.788,-0.01
+Lewis Dunk,Brighton,DF,CB,31.5,1,0,1,Defensive Solidity Index,3.198,3.145,0.053,Performing As Expected,58.5,3.145,3.198,0.053
+Lewis Hall,Newcastle,DF,FB_WB,24.2,1,1,2,Two-Way Dynamic Impact Index,4.289,4.252,0.037,Performing As Expected,58.5,4.252,4.289,0.037
+Rayan Cherki,Manchester City,MF,CM_DM,19.8,4,12,16,Two-Way Dynamic Impact Index,3.99,3.654,0.336,Performing As Expected,58.4,3.654,3.99,0.336
+James Hill,Bournemouth,DF,CB,23.4,0,3,3,Defensive Solidity Index,3.731,3.714,0.017,Performing As Expected,58.4,3.714,3.731,0.017
+Tyler Adams,Bournemouth,MF,CM_DM,19.7,2,2,4,Two-Way Dynamic Impact Index,3.107,3.196,-0.089,Performing As Expected,58.3,3.196,3.107,-0.089
+Beto,Everton,FW,FW,17.4,9,1,10,Goal Contributions (G+A/90),0.575,0.562,0.013,Performing As Expected,57.9,0.562,0.575,0.013
+Trai Hume,Sunderland,DFMF,FB_WB,33.7,2,1,3,Two-Way Dynamic Impact Index,3.285,3.309,-0.024,Performing As Expected,57.6,3.309,3.285,-0.024
+Malo Gusto,Chelsea,DFMF,FB_WB,25.1,2,3,5,Two-Way Dynamic Impact Index,3.335,3.238,0.097,Performing As Expected,57.4,3.238,3.335,0.097
+Phil Foden,Manchester City,MF,CM_DM,23.2,7,5,12,Two-Way Dynamic Impact Index,3.948,3.911,0.037,Performing As Expected,57.4,3.911,3.948,0.037
+Lewis Miley,Newcastle,MFDF,FB_WB,16.6,1,4,5,Two-Way Dynamic Impact Index,3.753,3.48,0.273,Performing As Expected,57.3,3.48,3.753,0.273
+Xavi Simons,Tottenham,MFFW,AM_WG,19.5,2,5,7,Goal Contributions (G+A/90),0.359,0.369,-0.01,Performing As Expected,57.2,0.369,0.359,-0.01
+Youri Tielemans,Aston Villa,MF,CM_DM,20.7,0,4,4,Two-Way Dynamic Impact Index,3.816,3.759,0.057,Performing As Expected,57.1,3.759,3.816,0.057
+Mikel Merino,Arsenal,MFFW,AM_WG,11.5,4,3,7,Goal Contributions (G+A/90),0.609,0.511,0.098,Performing As Expected,57.1,0.511,0.609,0.098
+João Gomes,Wolves,MF,CM_DM,31.4,1,1,2,Two-Way Dynamic Impact Index,3.803,3.824,-0.021,Performing As Expected,57.0,3.824,3.803,-0.021
+James Justin,Leeds United,DFMF,FB_WB,21.1,2,1,3,Two-Way Dynamic Impact Index,3.967,3.852,0.115,Performing As Expected,57.0,3.852,3.967,0.115
+Ethan Ampadu,Leeds United,MF,CM_DM,34.7,1,1,2,Two-Way Dynamic Impact Index,3.141,3.395,-0.254,Performing As Expected,56.8,3.395,3.141,-0.254
+Florian Wirtz,Liverpool,MF,CM_DM,26.4,5,3,8,Two-Way Dynamic Impact Index,2.379,2.433,-0.054,Performing As Expected,56.5,2.433,2.379,-0.054
+Idrissa Gueye,Everton,MF,CM_DM,23.3,2,3,5,Two-Way Dynamic Impact Index,2.794,2.744,0.05,Performing As Expected,56.5,2.744,2.794,0.05
+Cole Palmer,Chelsea,MF,CM_DM,21.7,10,1,11,Two-Way Dynamic Impact Index,2.558,2.529,0.029,Performing As Expected,56.4,2.529,2.558,0.029
+Álex Jiménez,Bournemouth,DFMF,FB_WB,25.7,1,0,1,Two-Way Dynamic Impact Index,3.654,3.695,-0.041,Performing As Expected,56.1,3.695,3.654,-0.041
+Nico O'Reilly,Manchester City,DFMF,FB_WB,29.4,5,3,8,Two-Way Dynamic Impact Index,2.83,2.712,0.118,Performing As Expected,56.1,2.712,2.83,0.118
+John McGinn,Aston Villa,MF,CM_DM,23.7,5,4,9,Two-Way Dynamic Impact Index,3.177,3.242,-0.065,Performing As Expected,56.1,3.242,3.177,-0.065
+Alex Scott,Bournemouth,MF,CM_DM,31.7,3,1,4,Two-Way Dynamic Impact Index,3.603,3.544,0.059,Performing As Expected,56.0,3.544,3.603,0.059
+Igor Jesus,Nottingham,FW,FW,25.5,6,4,10,Goal Contributions (G+A/90),0.392,0.425,-0.033,Performing As Expected,55.6,0.425,0.392,-0.033
+Mohamed Salah,Liverpool,MF,CM_DM,23.8,7,7,14,Two-Way Dynamic Impact Index,3.479,3.607,-0.128,Performing As Expected,55.5,3.607,3.479,-0.128
+Josh Cullen,Burnley,MF,CM_DM,16.8,2,2,4,Two-Way Dynamic Impact Index,3.202,3.282,-0.08,Performing As Expected,55.4,3.282,3.202,-0.08
+Joachim Andersen,Fulham,DF,CB,31.9,0,1,1,Defensive Solidity Index,3.27,3.18,0.09,Performing As Expected,55.2,3.18,3.27,0.09
+Ibrahima Konaté,Liverpool,DF,CB,34.3,1,0,1,Defensive Solidity Index,2.274,2.333,-0.059,Performing As Expected,55.1,2.333,2.274,-0.059
+Florentino Luís,Burnley,MF,CM_DM,23.4,0,2,2,Two-Way Dynamic Impact Index,4.12,3.989,0.131,Performing As Expected,54.8,3.989,4.12,0.131
+Calvin Bassey,Fulham,DF,CB,28.2,1,0,1,Defensive Solidity Index,3.304,3.291,0.013,Performing As Expected,54.6,3.291,3.304,0.013
+Keane Lewis-Potter,Brentford,DFMF,FB_WB,21.9,3,3,6,Two-Way Dynamic Impact Index,2.767,3.014,-0.247,Performing As Expected,54.2,3.014,2.767,-0.247
+Jack Grealish,Everton,MF,CM_DM,18.1,2,6,8,Two-Way Dynamic Impact Index,2.961,2.782,0.179,Performing As Expected,54.1,2.782,2.961,0.179
+Yehor Yarmoliuk,Brentford,MF,CM_DM,29.5,1,2,3,Two-Way Dynamic Impact Index,3.068,3.08,-0.012,Performing As Expected,53.7,3.08,3.068,-0.012
+Ferdi Kadioglu,Brighton,DFMF,FB_WB,34.8,1,0,1,Two-Way Dynamic Impact Index,3.135,3.208,-0.073,Performing As Expected,53.3,3.208,3.135,-0.073
+Ibrahim Sangaré,Nottingham,MF,CM_DM,23.1,2,2,4,Two-Way Dynamic Impact Index,2.736,2.815,-0.079,Performing As Expected,53.2,2.815,2.736,-0.079
+Ezri Konsa,Aston Villa,DF,CB,33.7,0,0,0,Defensive Solidity Index,2.024,2.302,-0.278,Performing As Expected,52.7,2.302,2.024,-0.278
+Rodrigo Bentancur,Tottenham,MF,CM_DM,20.9,1,1,2,Two-Way Dynamic Impact Index,3.722,3.819,-0.097,Performing As Expected,52.4,3.819,3.722,-0.097
+Timothy Castagne,Fulham,DFMF,FB_WB,20.5,0,0,0,Two-Way Dynamic Impact Index,3.473,3.558,-0.085,Performing As Expected,52.4,3.558,3.473,-0.085
+Ismaila Sarr,Crystal Palace,MF,CM_DM,24.2,9,1,10,Two-Way Dynamic Impact Index,1.678,1.914,-0.236,Performing As Expected,52.0,1.914,1.678,-0.236
+Conor Bradley,Liverpool,DF,FB_WB,10.3,0,1,1,Two-Way Dynamic Impact Index,3.66,3.694,-0.034,Performing As Expected,51.9,3.694,3.66,-0.034
+Callum Wilson,West Ham,FW,FW,13.9,7,1,8,Goal Contributions (G+A/90),0.576,0.538,0.038,Performing As Expected,51.9,0.538,0.576,0.038
+Murillo,Nottingham,DF,CB,23.7,1,0,1,Defensive Solidity Index,3.127,3.214,-0.087,Performing As Expected,51.9,3.214,3.127,-0.087
+Marc Cucurella,Chelsea,DF,FB_WB,30.1,1,4,5,Two-Way Dynamic Impact Index,3.053,2.99,0.063,Performing As Expected,51.5,2.99,3.053,0.063
+Nathan Collins,Brentford,DF,CB,33.1,1,2,3,Defensive Solidity Index,2.794,2.963,-0.169,Performing As Expected,51.5,2.963,2.794,-0.169
+Aaron Wan-Bissaka,West Ham,DFMF,FB_WB,23.1,0,2,2,Two-Way Dynamic Impact Index,3.688,3.671,0.017,Performing As Expected,51.5,3.671,3.688,0.017
+Bernardo Silva,Manchester City,MF,CM_DM,31.9,2,4,6,Two-Way Dynamic Impact Index,2.721,2.763,-0.042,Performing As Expected,51.4,2.763,2.721,-0.042
+Alex Iwobi,Fulham,MF,CM_DM,26.9,4,3,7,Two-Way Dynamic Impact Index,2.926,3.043,-0.117,Performing As Expected,51.1,3.043,2.926,-0.117
+Cristian Romero,Tottenham,DF,CB,20.8,4,1,5,Defensive Solidity Index,3.726,3.554,0.172,Performing As Expected,50.9,3.554,3.726,0.172
+Tim Iroegbunam,Everton,MF,CM_DM,16.5,0,2,2,Two-Way Dynamic Impact Index,4.255,4.048,0.207,Performing As Expected,50.8,4.048,4.255,0.207
+Jorge Cuenca,Fulham,DF,CB,10.4,0,0,0,Defensive Solidity Index,3.793,3.713,0.08,Performing As Expected,50.8,3.713,3.793,0.08
+Kristoffer Ajer,Brentford,DF,CB,20.1,0,1,1,Defensive Solidity Index,3.204,3.055,0.149,Performing As Expected,50.8,3.055,3.204,0.149
+Alexis Mac Allister,Liverpool,MF,CM_DM,29.5,2,4,6,Two-Way Dynamic Impact Index,2.102,2.295,-0.193,Performing As Expected,50.5,2.295,2.102,-0.193
+Gabriel Martinelli,Arsenal,FWMF,AM_WG,12.0,1,4,5,Goal Contributions (G+A/90),0.417,0.425,-0.008,Performing As Expected,50.2,0.425,0.417,-0.008
+Michael Kayode,Brentford,DF,FB_WB,36.2,1,1,2,Two-Way Dynamic Impact Index,3.077,3.105,-0.028,Performing As Expected,50.0,3.105,3.077,-0.028
+Crysencio Summerville,West Ham,MFFW,AM_WG,27.4,5,2,7,Goal Contributions (G+A/90),0.255,0.296,-0.041,Performing As Expected,49.6,0.296,0.255,-0.041
+Virgil van Dijk,Liverpool,DF,CB,38.0,6,0,6,Defensive Solidity Index,1.633,1.872,-0.239,Performing As Expected,49.6,1.872,1.633,-0.239
+Jayden Bogle,Leeds United,MFDF,FB_WB,31.0,1,2,3,Two-Way Dynamic Impact Index,3.365,3.256,0.109,Performing As Expected,49.6,3.256,3.365,0.109
+Diogo Dalot,Manchester Utd,DFMF,FB_WB,29.0,1,3,4,Two-Way Dynamic Impact Index,2.924,2.92,0.004,Performing As Expected,49.5,2.92,2.924,0.004
+Jacob Ramsey,Newcastle,MF,CM_DM,16.1,2,3,5,Two-Way Dynamic Impact Index,2.528,2.456,0.072,Performing As Expected,49.4,2.456,2.528,0.072
+El Hadji Malick Diouf,West Ham,DFMF,FB_WB,30.1,0,5,5,Two-Way Dynamic Impact Index,3.392,3.373,0.019,Performing As Expected,49.2,3.373,3.392,0.019
+Gabriel Gudmundsson,Leeds United,DFMF,FB_WB,29.2,0,0,0,Two-Way Dynamic Impact Index,3.774,3.774,0.0,Performing As Expected,48.8,3.774,3.774,0.0
+Joelinton,Newcastle,MF,CM_DM,21.7,2,1,3,Two-Way Dynamic Impact Index,2.76,2.775,-0.015,Performing As Expected,48.5,2.775,2.76,-0.015
+Leny Yoro,Manchester Utd,DF,CB,19.3,0,0,0,Defensive Solidity Index,3.767,3.679,0.088,Performing As Expected,48.5,3.679,3.767,0.088
+Ola Aina,Nottingham,DF,FB_WB,17.6,0,0,0,Two-Way Dynamic Impact Index,3.557,3.679,-0.122,Performing As Expected,48.2,3.679,3.557,-0.122
+Luke Shaw,Manchester Utd,DF,FB_WB,35.8,1,1,2,Two-Way Dynamic Impact Index,3.145,3.169,-0.024,Performing As Expected,48.2,3.169,3.145,-0.024
+Mathys Tel,Tottenham,MFFW,AM_WG,15.0,4,1,5,Goal Contributions (G+A/90),0.333,0.325,0.008,Performing As Expected,48.0,0.325,0.333,0.008
+Tomáš Souček,West Ham,MF,CM_DM,24.4,5,0,5,Two-Way Dynamic Impact Index,2.135,2.304,-0.169,Performing As Expected,47.9,2.304,2.135,-0.169
+Lucas,Burnley,MFDF,FB_WB,15.7,0,0,0,Two-Way Dynamic Impact Index,4.038,4.073,-0.035,Performing As Expected,47.8,4.073,4.038,-0.035
+Milos Kerkez,Liverpool,DF,FB_WB,25.1,2,1,3,Two-Way Dynamic Impact Index,3.072,3.116,-0.044,Performing As Expected,47.7,3.116,3.072,-0.044
+Wesley Fofana,Chelsea,DF,CB,19.1,0,1,1,Defensive Solidity Index,3.648,3.609,0.039,Performing As Expected,47.5,3.609,3.648,0.039
+Pau Torres,Aston Villa,DF,CB,18.6,0,0,0,Defensive Solidity Index,2.477,2.534,-0.057,Performing As Expected,47.2,2.534,2.477,-0.057
+Nikola Milenković,Nottingham,DF,CB,37.5,0,0,0,Defensive Solidity Index,2.212,2.359,-0.147,Performing As Expected,47.1,2.359,2.212,-0.147
+Hannibal Mejbri,Burnley,MF,CM_DM,13.7,1,4,5,Two-Way Dynamic Impact Index,3.175,2.855,0.32,Performing As Expected,47.1,2.855,3.175,0.32
+Malick Thiaw,Newcastle,DF,CB,32.9,4,0,4,Defensive Solidity Index,2.483,2.492,-0.009,Performing As Expected,47.1,2.492,2.483,-0.009
+Vitaliy Mykolenko,Everton,DF,FB_WB,32.9,0,1,1,Two-Way Dynamic Impact Index,2.757,2.94,-0.183,Performing As Expected,47.0,2.94,2.757,-0.183
+Konstantinos Mavropanos,West Ham,DF,CB,28.2,3,0,3,Defensive Solidity Index,2.518,2.672,-0.154,Performing As Expected,46.8,2.672,2.518,-0.154
+Sepp van den Berg,Brentford,DF,CB,30.7,0,2,2,Defensive Solidity Index,2.454,2.519,-0.065,Performing As Expected,46.5,2.519,2.454,-0.065
+Georginio Rutter,Brighton,MFFW,AM_WG,19.8,3,3,6,Goal Contributions (G+A/90),0.303,0.334,-0.031,Performing As Expected,46.3,0.334,0.303,-0.031
+Lukas Nmecha,Leeds United,FW,FW,12.0,6,1,7,Goal Contributions (G+A/90),0.583,0.504,0.079,Performing As Expected,46.0,0.504,0.583,0.079
+Anthony Gordon,Newcastle,FW,FW,19.9,6,2,8,Goal Contributions (G+A/90),0.402,0.386,0.016,Performing As Expected,46.0,0.386,0.402,0.016
+Boubacar Kamara,Aston Villa,MF,CM_DM,15.7,1,3,4,Two-Way Dynamic Impact Index,2.408,2.438,-0.03,Performing As Expected,45.9,2.438,2.408,-0.03
+Bafodé Diakité,Bournemouth,DF,CB,14.2,0,0,0,Defensive Solidity Index,3.055,2.923,0.132,Performing As Expected,45.8,2.923,3.055,0.132
+Trevoh Chalobah,Chelsea,DF,CB,30.9,3,0,3,Defensive Solidity Index,2.992,2.927,0.065,Performing As Expected,45.8,2.927,2.992,0.065
+Saša Lukić,Fulham,MF,CM_DM,19.3,1,2,3,Two-Way Dynamic Impact Index,3.922,3.781,0.141,Performing As Expected,45.5,3.781,3.922,0.141
+Amad Diallo,Manchester Utd,MF,CM_DM,26.0,2,3,5,Two-Way Dynamic Impact Index,2.458,2.582,-0.124,Performing As Expected,45.4,2.582,2.458,-0.124
+Morato,Nottingham,DF,CB,14.9,1,0,1,Defensive Solidity Index,2.879,2.857,0.022,Performing As Expected,45.2,2.857,2.879,0.022
+Ryan Christie,Bournemouth,MF,CM_DM,11.0,2,0,2,Two-Way Dynamic Impact Index,3.709,3.658,0.051,Performing As Expected,45.2,3.658,3.709,0.051
+Pascal Struijk,Leeds United,DF,CB,32.6,0,1,1,Defensive Solidity Index,1.656,1.753,-0.097,Performing As Expected,45.0,1.753,1.656,-0.097
+Jorrel Hato,Chelsea,DF,CB,12.8,0,0,0,Defensive Solidity Index,3.895,3.614,0.281,Performing As Expected,44.7,3.614,3.895,0.281
+Amadou Onana,Aston Villa,MF,CM_DM,19.5,2,0,2,Two-Way Dynamic Impact Index,2.667,2.838,-0.171,Performing As Expected,44.5,2.838,2.667,-0.171
+Mathias Jensen,Brentford,MF,CM_DM,25.0,3,1,4,Two-Way Dynamic Impact Index,3.984,3.951,0.033,Performing As Expected,44.5,3.951,3.984,0.033
+Nicolás Domínguez,Nottingham,MF,CM_DM,13.1,1,1,2,Two-Way Dynamic Impact Index,3.405,3.376,0.029,Performing As Expected,44.5,3.376,3.405,0.029
+Riccardo Calafiori,Arsenal,DF,FB_WB,18.9,1,2,3,Two-Way Dynamic Impact Index,2.376,2.413,-0.037,Performing As Expected,44.4,2.413,2.376,-0.037
+Martin Ødegaard,Arsenal,MF,CM_DM,15.2,1,6,7,Two-Way Dynamic Impact Index,2.322,2.274,0.048,Performing As Expected,44.4,2.274,2.322,0.048
+Kevin Danso,Tottenham,DF,CB,16.6,0,0,0,Defensive Solidity Index,3.083,3.08,0.003,Performing As Expected,44.3,3.08,3.083,0.003
+Amine Adli,Bournemouth,MF,CM_DM,12.2,3,1,4,Two-Way Dynamic Impact Index,3.656,3.408,0.248,Performing As Expected,44.2,3.408,3.656,0.248
+Lesley Ugochukwu,Burnley,MF,CM_DM,26.0,3,1,4,Two-Way Dynamic Impact Index,1.992,2.275,-0.283,Performing As Expected,43.9,2.275,1.992,-0.283
+Jack Hinshelwood,Brighton,MF,CM_DM,19.3,4,3,7,Two-Way Dynamic Impact Index,1.674,1.894,-0.22,Performing As Expected,43.8,1.894,1.674,-0.22
+Jacob Murphy,Newcastle,FWMF,AM_WG,18.0,3,2,5,Goal Contributions (G+A/90),0.278,0.301,-0.023,Performing As Expected,43.8,0.301,0.278,-0.023
+Rayan,Bournemouth,MF,CM_DM,12.3,5,2,7,Two-Way Dynamic Impact Index,2.772,2.62,0.152,Performing As Expected,43.8,2.62,2.772,0.152
+Emile Smith Rowe,Fulham,MF,CM_DM,21.4,3,0,3,Two-Way Dynamic Impact Index,2.509,2.528,-0.019,Performing As Expected,43.6,2.528,2.509,-0.019
+Thierno Barry,Everton,FW,FW,21.3,8,0,8,Goal Contributions (G+A/90),0.376,0.339,0.037,Performing As Expected,43.6,0.339,0.376,0.037
+Kobbie Mainoo,Manchester Utd,MF,CM_DM,18.5,1,2,3,Two-Way Dynamic Impact Index,2.632,2.609,0.023,Performing As Expected,43.2,2.609,2.632,0.023
+Diego Gómez,Brighton,MFFW,AM_WG,23.6,5,1,6,Goal Contributions (G+A/90),0.254,0.282,-0.028,Performing As Expected,43.1,0.282,0.254,-0.028
+Brian Brobbey,Sunderland,FW,FW,21.4,7,1,8,Goal Contributions (G+A/90),0.374,0.359,0.015,Performing As Expected,43.1,0.359,0.374,0.015
+Omari Hutchinson,Nottingham,MF,CM_DM,18.8,1,5,6,Two-Way Dynamic Impact Index,4.479,4.34,0.139,Performing As Expected,43.0,4.34,4.479,0.139
+Tijjani Reijnders,Manchester City,MF,CM_DM,18.1,5,2,7,Two-Way Dynamic Impact Index,2.359,2.423,-0.064,Performing As Expected,42.9,2.423,2.359,-0.064
+Callum Hudson-Odoi,Nottingham,MF,CM_DM,20.5,3,4,7,Two-Way Dynamic Impact Index,3.02,3.252,-0.232,Performing As Expected,42.7,3.252,3.02,-0.232
+Nicolás González,Manchester City,MF,CM_DM,17.4,1,0,1,Two-Way Dynamic Impact Index,3.259,3.487,-0.228,Performing As Expected,42.7,3.487,3.259,-0.228
+Joe Rodon,Leeds United,DF,CB,32.8,2,0,2,Defensive Solidity Index,1.494,1.622,-0.128,Performing As Expected,42.7,1.622,1.494,-0.128
+Tyrone Mings,Aston Villa,DF,CB,14.7,0,0,0,Defensive Solidity Index,2.018,2.185,-0.167,Performing As Expected,42.2,2.185,2.018,-0.167
+Jefferson Lerma,Crystal Palace,MFDF,FB_WB,19.3,0,2,2,Two-Way Dynamic Impact Index,2.632,2.642,-0.01,Performing As Expected,42.1,2.642,2.632,-0.01
+Reinildo Mandava,Sunderland,DF,FB_WB,21.8,0,1,1,Two-Way Dynamic Impact Index,2.876,2.87,0.006,Performing As Expected,42.1,2.87,2.876,0.006
+Nicolò Savona,Nottingham,DF,FB_WB,11.4,2,0,2,Two-Way Dynamic Impact Index,2.702,2.7,0.002,Performing As Expected,41.6,2.7,2.702,0.002
+Chemsdine Talbi,Sunderland,MFFW,AM_WG,17.3,4,1,5,Goal Contributions (G+A/90),0.289,0.3,-0.011,Performing As Expected,41.5,0.3,0.289,-0.011
+Dan Burn,Newcastle,DF,CB,24.4,1,2,3,Defensive Solidity Index,2.423,2.466,-0.043,Performing As Expected,41.3,2.466,2.423,-0.043
+André,Wolves,MF,CM_DM,30.7,1,0,1,Two-Way Dynamic Impact Index,2.752,2.793,-0.041,Performing As Expected,41.1,2.793,2.752,-0.041
+Samuel Chukwueze,Fulham,MF,CM_DM,12.0,3,4,7,Two-Way Dynamic Impact Index,3.142,3.152,-0.01,Performing As Expected,41.1,3.152,3.142,-0.01
+Soungoutou Magassa,West Ham,MF,CM_DM,10.9,1,0,1,Two-Way Dynamic Impact Index,4.138,3.964,0.174,Performing As Expected,40.9,3.964,4.138,0.174
+Sander Berge,Fulham,MF,CM_DM,32.3,0,1,1,Two-Way Dynamic Impact Index,2.282,2.503,-0.221,Performing As Expected,40.8,2.503,2.282,-0.221
+Ao Tanaka,Leeds United,MF,CM_DM,14.6,2,0,2,Two-Way Dynamic Impact Index,3.74,3.576,0.164,Performing As Expected,40.6,3.576,3.74,0.164
+Sven Botman,Newcastle,DF,CB,20.4,1,1,2,Defensive Solidity Index,2.449,2.467,-0.018,Performing As Expected,40.4,2.467,2.449,-0.018
+Pascal Groß,Brighton,MF,CM_DM,18.2,1,3,4,Two-Way Dynamic Impact Index,4.484,4.392,0.092,Performing As Expected,40.4,4.392,4.484,0.092
+Jaka Bijol,Leeds United,DF,CB,21.0,1,2,3,Defensive Solidity Index,1.667,1.666,0.001,Performing As Expected,40.3,1.666,1.667,0.001
+Lucas Paquetá,West Ham,MFFW,AM_WG,16.8,4,1,5,Goal Contributions (G+A/90),0.298,0.3,-0.002,Performing As Expected,40.0,0.3,0.298,-0.002
+Micky van de Ven,Tottenham,DF,CB,33.8,4,1,5,Defensive Solidity Index,2.007,2.162,-0.155,Performing As Expected,40.0,2.162,2.007,-0.155
+Adam Smith,Bournemouth,DF,FB_WB,12.0,0,2,2,Two-Way Dynamic Impact Index,2.517,2.443,0.074,Performing As Expected,39.9,2.443,2.517,0.074
+Andrey Santos,Chelsea,MF,CM_DM,14.0,1,0,1,Two-Way Dynamic Impact Index,2.95,3.085,-0.135,Performing As Expected,39.7,3.085,2.95,-0.135
+Conor Gallagher,Tottenham,MF,CM_DM,13.2,1,1,2,Two-Way Dynamic Impact Index,3.348,3.214,0.134,Performing As Expected,39.7,3.214,3.348,0.134
+Jean-Clair Todibo,West Ham,DF,CB,20.2,0,1,1,Defensive Solidity Index,1.98,2.124,-0.144,Performing As Expected,39.5,2.124,1.98,-0.144
+Jeremie Frimpong,Liverpool,DFMF,FB_WB,11.6,0,1,1,Two-Way Dynamic Impact Index,3.181,3.277,-0.096,Performing As Expected,39.4,3.277,3.181,-0.096
+Lucas Bergvall,Tottenham,MF,CM_DM,10.7,1,3,4,Two-Way Dynamic Impact Index,2.86,2.668,0.192,Performing As Expected,39.4,2.668,2.86,0.192
+Mason Mount,Manchester Utd,MF,CM_DM,11.3,3,0,3,Two-Way Dynamic Impact Index,3.124,2.904,0.22,Performing As Expected,39.3,2.904,3.124,0.22
+Andy Robertson,Liverpool,DF,FB_WB,13.1,1,0,1,Two-Way Dynamic Impact Index,3.031,3.211,-0.18,Performing As Expected,39.2,3.211,3.031,-0.18
+Alejandro Garnacho,Chelsea,MF,CM_DM,14.1,1,4,5,Two-Way Dynamic Impact Index,3.468,3.346,0.122,Performing As Expected,39.1,3.346,3.468,0.122
+Evanilson,Bournemouth,FW,FW,30.5,6,1,7,Goal Contributions (G+A/90),0.23,0.276,-0.046,Performing As Expected,38.8,0.276,0.23,-0.046
+Kieran Trippier,Newcastle,DF,FB_WB,17.6,0,1,1,Two-Way Dynamic Impact Index,3.403,3.686,-0.283,Performing As Expected,38.6,3.686,3.403,-0.283
+Lyle Foster,Burnley,FWMF,AM_WG,15.2,3,2,5,Goal Contributions (G+A/90),0.329,0.3,0.029,Performing As Expected,38.3,0.3,0.329,0.029
+Sandro Tonali,Newcastle,MF,CM_DM,28.2,0,2,2,Two-Way Dynamic Impact Index,3.333,3.315,0.018,Performing As Expected,38.3,3.315,3.333,0.018
+Josh Laurent,Burnley,DFMF,FB_WB,19.6,1,0,1,Two-Way Dynamic Impact Index,3.066,3.254,-0.188,Performing As Expected,38.2,3.254,3.066,-0.188
+Jordan Henderson,Brentford,MF,CM_DM,21.3,1,3,4,Two-Way Dynamic Impact Index,2.592,2.659,-0.067,Performing As Expected,38.0,2.659,2.592,-0.067
+Jake O'Brien,Everton,DF,FB_WB,34.7,1,1,2,Two-Way Dynamic Impact Index,1.948,2.372,-0.424,Underperforming Two-Way Impact,38.0,2.372,1.948,-0.424
+Fabian Schär,Newcastle,DF,CB,12.1,0,0,0,Defensive Solidity Index,2.603,2.546,0.057,Performing As Expected,37.4,2.546,2.603,0.057
+Ilia Gruev,Leeds United,MF,CM_DM,14.7,0,3,3,Two-Way Dynamic Impact Index,2.578,2.455,0.123,Performing As Expected,37.0,2.455,2.578,0.123
+Carlos Baleba,Brighton,MF,CM_DM,18.4,0,0,0,Two-Way Dynamic Impact Index,2.663,2.952,-0.289,Performing As Expected,36.9,2.952,2.663,-0.289
+Curtis Jones,Liverpool,MFDF,FB_WB,21.5,1,2,3,Two-Way Dynamic Impact Index,2.414,2.438,-0.024,Performing As Expected,36.7,2.438,2.414,-0.024
+Kyle Walker,Burnley,DFMF,FB_WB,34.4,0,2,2,Two-Way Dynamic Impact Index,2.698,2.681,0.017,Performing As Expected,36.7,2.681,2.698,0.017
+Noni Madueke,Arsenal,FWMF,AM_WG,13.5,3,1,4,Goal Contributions (G+A/90),0.296,0.292,0.004,Performing As Expected,36.4,0.292,0.296,0.004
+Jackson Tchatchoua,Wolves,MFDF,FB_WB,20.5,0,1,1,Two-Way Dynamic Impact Index,3.244,3.242,0.002,Performing As Expected,36.3,3.242,3.244,0.002
+Douglas Luiz,Nottingham,MF,CM_DM,10.2,1,0,1,Two-Way Dynamic Impact Index,4.578,4.5,0.078,Performing As Expected,36.1,4.5,4.578,0.078
+David Brooks,Bournemouth,MF,CM_DM,13.4,1,3,4,Two-Way Dynamic Impact Index,3.478,3.346,0.132,Performing As Expected,36.0,3.346,3.478,0.132
+Noah Sadiki,Sunderland,MF,CM_DM,32.1,0,1,1,Two-Way Dynamic Impact Index,2.146,2.38,-0.234,Performing As Expected,36.0,2.38,2.146,-0.234
+Kyle Walker-Peters,West Ham,DF,FB_WB,15.4,1,0,1,Two-Way Dynamic Impact Index,3.149,3.133,0.016,Performing As Expected,35.4,3.133,3.149,0.016
+Freddie Potts,West Ham,MF,CM_DM,13.0,0,1,1,Two-Way Dynamic Impact Index,3.777,3.641,0.136,Performing As Expected,35.1,3.641,3.777,0.136
+Yéremy Pino,Crystal Palace,MFFW,AM_WG,23.1,2,2,4,Goal Contributions (G+A/90),0.173,0.213,-0.04,Performing As Expected,35.1,0.213,0.173,-0.04
+Matthijs de Ligt,Manchester Utd,DF,CB,13.0,1,0,1,Defensive Solidity Index,2.971,2.846,0.125,Performing As Expected,35.0,2.846,2.971,0.125
+Marcus Edwards,Burnley,MFFW,AM_WG,11.9,1,3,4,Goal Contributions (G+A/90),0.336,0.291,0.045,Performing As Expected,34.8,0.291,0.336,0.045
+Harry Maguire,Manchester Utd,DF,CB,18.4,1,2,3,Defensive Solidity Index,2.701,2.686,0.015,Performing As Expected,34.8,2.686,2.701,0.015
+Daichi Kamada,Crystal Palace,MF,CM_DM,21.1,0,0,0,Two-Way Dynamic Impact Index,3.118,3.152,-0.034,Performing As Expected,34.5,3.152,3.118,-0.034
+Destiny Udogie,Tottenham,DFMF,FB_WB,14.9,0,1,1,Two-Way Dynamic Impact Index,2.638,2.755,-0.117,Performing As Expected,34.4,2.755,2.638,-0.117
+Emmanuel Agbadou,Wolves,DF,FB_WB,12.2,0,0,0,Two-Way Dynamic Impact Index,3.295,3.39,-0.095,Performing As Expected,34.2,3.39,3.295,-0.095
+Djed Spence,Tottenham,DFMF,FB_WB,22.8,0,0,0,Two-Way Dynamic Impact Index,2.614,2.78,-0.166,Performing As Expected,34.1,2.78,2.614,-0.166
+Lisandro Martínez,Manchester Utd,DF,CB,13.7,0,0,0,Defensive Solidity Index,2.804,2.772,0.032,Performing As Expected,33.9,2.772,2.804,0.032
+Archie Gray,Tottenham,MFDF,FB_WB,16.4,2,2,4,Two-Way Dynamic Impact Index,2.183,2.266,-0.083,Performing As Expected,33.9,2.266,2.183,-0.083
+Ladislav Krejčí,Wolves,DFMF,FB_WB,26.2,2,1,3,Two-Way Dynamic Impact Index,2.454,2.472,-0.018,Performing As Expected,33.8,2.472,2.454,-0.018
+Wilson Isidor,Sunderland,FW,FW,12.9,6,0,6,Goal Contributions (G+A/90),0.465,0.442,0.023,Performing As Expected,33.8,0.442,0.465,0.023
+David Møller Wolfe,Wolves,MFDF,FB_WB,11.7,0,2,2,Two-Way Dynamic Impact Index,2.376,2.613,-0.237,Performing As Expected,33.3,2.613,2.376,-0.237
+Noussair Mazraoui,Manchester Utd,DFMF,FB_WB,10.9,0,0,0,Two-Way Dynamic Impact Index,2.862,2.929,-0.067,Performing As Expected,33.2,2.929,2.862,-0.067
+Lutsharel Geertruida,Sunderland,DFMF,FB_WB,18.8,0,0,0,Two-Way Dynamic Impact Index,2.426,2.603,-0.177,Performing As Expected,33.0,2.603,2.426,-0.177
+Evann Guessand,Crystal Palace,MF,CM_DM,10.2,1,2,3,Two-Way Dynamic Impact Index,2.441,2.339,0.102,Performing As Expected,32.7,2.339,2.441,0.102
+Joe Willock,Newcastle,MF,CM_DM,10.9,0,2,2,Two-Way Dynamic Impact Index,2.881,2.708,0.173,Performing As Expected,32.5,2.708,2.881,0.173
+Maxime Estève,Burnley,DF,CB,32.6,0,0,0,Defensive Solidity Index,2.392,2.373,0.019,Performing As Expected,32.2,2.373,2.392,0.019
+Rodri,Manchester City,MF,CM_DM,16.8,1,0,1,Two-Way Dynamic Impact Index,2.411,2.599,-0.188,Performing As Expected,32.1,2.599,2.411,-0.188
+Rico Henry,Brentford,DF,FB_WB,14.8,0,1,1,Two-Way Dynamic Impact Index,2.02,2.389,-0.369,Performing As Expected,31.5,2.389,2.02,-0.369
+Valentín Castellanos,West Ham,FW,FW,15.4,6,0,6,Goal Contributions (G+A/90),0.39,0.372,0.018,Performing As Expected,31.4,0.372,0.39,0.018
+Mateus Mane,Wolves,MF,CM_DM,19.9,3,1,4,Two-Way Dynamic Impact Index,3.095,3.273,-0.178,Performing As Expected,31.4,3.273,3.095,-0.178
+Yerson Mosquera,Wolves,DF,CB,23.7,0,0,0,Defensive Solidity Index,2.574,2.583,-0.009,Performing As Expected,30.9,2.583,2.574,-0.009
+Kaoru Mitoma,Brighton,MFFW,AM_WG,19.1,3,1,4,Goal Contributions (G+A/90),0.209,0.237,-0.028,Performing As Expected,30.9,0.237,0.209,-0.028
+Jørgen Strand Larsen,Crystal Palace,FW,FW,25.6,4,1,5,Goal Contributions (G+A/90),0.195,0.237,-0.042,Performing As Expected,30.2,0.237,0.195,-0.042
+Adam Armstrong,Wolves,FWMF,AM_WG,12.7,2,2,4,Goal Contributions (G+A/90),0.315,0.275,0.04,Performing As Expected,30.0,0.275,0.315,0.04
+James Ward-Prowse,Burnley,MF,CM_DM,12.2,0,1,1,Two-Way Dynamic Impact Index,4.762,4.564,0.198,Performing As Expected,29.3,4.564,4.762,0.198
+Tino Livramento,Newcastle,DF,FB_WB,14.8,0,1,1,Two-Way Dynamic Impact Index,2.155,2.408,-0.253,Performing As Expected,29.0,2.408,2.155,-0.253
+Axel Disasi,West Ham,DF,CB,13.9,0,0,0,Defensive Solidity Index,1.583,1.512,0.071,Performing As Expected,28.8,1.512,1.583,0.071
+Habib Diarra,Sunderland,MF,CM_DM,15.6,2,2,4,Two-Way Dynamic Impact Index,1.91,2.191,-0.281,Performing As Expected,28.6,2.191,1.91,-0.281
+Ayden Heaven,Manchester Utd,DF,CB,10.3,0,1,1,Defensive Solidity Index,2.484,2.542,-0.058,Performing As Expected,28.0,2.542,2.484,-0.058
+Santiago Bueno,Wolves,DF,CB,28.4,3,1,4,Defensive Solidity Index,2.007,2.123,-0.116,Performing As Expected,27.7,2.123,2.007,-0.116
+Hwang Hee-chan,Wolves,FWMF,AM_WG,16.1,2,2,4,Goal Contributions (G+A/90),0.248,0.236,0.012,Performing As Expected,27.6,0.236,0.248,0.012
+Brennan Johnson,Crystal Palace,MFFW,AM_WG,19.2,2,1,3,Goal Contributions (G+A/90),0.156,0.176,-0.02,Performing As Expected,27.6,0.176,0.156,-0.02
+Kevin,Fulham,MF,CM_DM,11.6,1,1,2,Two-Way Dynamic Impact Index,3.379,3.352,0.027,Performing As Expected,26.8,3.352,3.379,0.027
+Dan Ndoye,Nottingham,MF,CM_DM,13.0,1,1,2,Two-Way Dynamic Impact Index,3.108,3.129,-0.021,Performing As Expected,26.7,3.129,3.108,-0.021
+Dwight McNeil,Everton,MF,CM_DM,13.0,0,1,1,Two-Way Dynamic Impact Index,3.346,3.316,0.03,Performing As Expected,26.2,3.316,3.346,0.03
+Max Kilman,West Ham,DF,CB,17.3,0,0,0,Defensive Solidity Index,0.809,1.074,-0.265,Performing As Expected,25.4,1.074,0.809,-0.265
+Joshua King,Fulham,MF,CM_DM,14.5,1,2,3,Two-Way Dynamic Impact Index,1.676,1.854,-0.178,Performing As Expected,25.3,1.854,1.676,-0.178
+Lamare Bogarde,Aston Villa,MFDF,FB_WB,11.7,0,0,0,Two-Way Dynamic Impact Index,2.034,2.361,-0.327,Performing As Expected,24.2,2.361,2.034,-0.327
+Loum Tchaouna,Burnley,MFFW,AM_WG,14.1,2,1,3,Goal Contributions (G+A/90),0.213,0.228,-0.015,Performing As Expected,23.9,0.228,0.213,-0.015
+Rodrigo Gomes,Wolves,MFFW,AM_WG,10.7,3,0,3,Goal Contributions (G+A/90),0.28,0.255,0.025,Performing As Expected,23.8,0.255,0.28,0.025
+Will Hughes,Crystal Palace,MF,CM_DM,17.5,0,0,0,Two-Way Dynamic Impact Index,2.8,2.877,-0.077,Performing As Expected,22.3,2.877,2.8,-0.077
+Oscar Bobb,Fulham,MF,CM_DM,11.5,0,1,1,Two-Way Dynamic Impact Index,2.443,2.429,0.014,Performing As Expected,22.0,2.429,2.443,0.014
+Tolu Arokodare,Wolves,FW,FW,15.8,3,1,4,Goal Contributions (G+A/90),0.253,0.265,-0.012,Performing As Expected,21.5,0.265,0.253,-0.012
+Hjalmar Ekdal,Burnley,DF,CB,17.1,0,0,0,Defensive Solidity Index,2.124,2.12,0.004,Performing As Expected,20.3,2.12,2.124,0.004
+Victor Lindelöf,Aston Villa,DFMF,FB_WB,10.5,0,1,1,Two-Way Dynamic Impact Index,1.19,1.685,-0.495,Underperforming Two-Way Impact,20.0,1.685,1.19,-0.495
+Justin Kluivert,Bournemouth,MF,CM_DM,10.6,2,0,2,Two-Way Dynamic Impact Index,2.83,3.154,-0.324,Performing As Expected,17.4,3.154,2.83,-0.324
+Bashir Humphreys,Burnley,DFMF,FB_WB,17.5,0,0,0,Two-Way Dynamic Impact Index,1.989,2.221,-0.232,Performing As Expected,16.9,2.221,1.989,-0.232
+Wilson Odobert,Tottenham,MFFW,AM_WG,10.9,0,2,2,Goal Contributions (G+A/90),0.183,0.214,-0.031,Performing As Expected,16.9,0.214,0.183,-0.031
+Randal Kolo Muani,Tottenham,FWMF,AM_WG,18.5,1,1,2,Goal Contributions (G+A/90),0.108,0.147,-0.039,Performing As Expected,16.8,0.147,0.108,-0.039
+Chris Wood,Nottingham,FW,FW,10.0,3,0,3,Goal Contributions (G+A/90),0.3,0.279,0.021,Performing As Expected,15.6,0.279,0.3,0.021
+Dominic Solanke,Tottenham,FW,FW,11.1,3,0,3,Goal Contributions (G+A/90),0.27,0.253,0.017,Performing As Expected,15.5,0.253,0.27,0.017
+Jean-Ricner Bellegarde,Wolves,MFFW,AM_WG,13.9,1,1,2,Goal Contributions (G+A/90),0.144,0.153,-0.009,Performing As Expected,15.4,0.153,0.144,-0.009
+Anthony Elanga,Newcastle,FWMF,AM_WG,14.7,0,1,1,Goal Contributions (G+A/90),0.068,0.092,-0.024,Performing As Expected,15.4,0.092,0.068,-0.024
+Axel Tuanzebe,Burnley,DF,CB,13.3,1,0,1,Defensive Solidity Index,1.932,1.928,0.004,Performing As Expected,14.4,1.928,1.932,0.004
+Toti Gomes,Wolves,DF,CB,15.8,0,0,0,Defensive Solidity Index,1.519,1.611,-0.092,Performing As Expected,14.0,1.611,1.519,-0.092
+Jacob Bruun Larsen,Burnley,MFFW,AM_WG,11.4,0,1,1,Goal Contributions (G+A/90),0.088,0.104,-0.016,Performing As Expected,13.3,0.104,0.088,-0.016
+Jhon Arias,Wolves,FWMF,AM_WG,12.5,1,0,1,Goal Contributions (G+A/90),0.08,0.092,-0.012,Performing As Expected,10.6,0.092,0.08,-0.012
+Rodrigo Muniz,Fulham,FW,FW,11.1,1,1,2,Goal Contributions (G+A/90),0.18,0.161,0.019,Performing As Expected,7.8,0.161,0.18,0.019
+Liam Delap,Chelsea,FW,FW,12.3,1,0,1,Goal Contributions (G+A/90),0.081,0.132,-0.051,Performing As Expected,6.7,0.132,0.081,-0.051
+Alisson,Liverpool,GK,GK,26.0,0,0,0,Save Efficiency (Save%),64.8,67.7,-2.9,Performing As Expected,,67.7,64.8,-2.9
+Alisson,Liverpool,GK,GK,26.0,0,0,0,Save Efficiency (Save%),64.8,67.7,-2.9,Performing As Expected,,67.7,64.8,-2.9
+Alphonse Areola,West Ham,GK,GK,20.0,0,0,0,Save Efficiency (Save%),67.3,66.3,1.0,Performing As Expected,,66.3,67.3,1.0
+Alphonse Areola,West Ham,GK,GK,20.0,0,0,0,Save Efficiency (Save%),67.3,66.3,1.0,Performing As Expected,,66.3,67.3,1.0
+Altay Bayındır,Manchester Utd,GK,GK,6.0,0,0,0,Save Efficiency (Save%),54.2,55.8,-1.6,Performing As Expected,,55.8,54.2,-1.6
+Marco Bizot,Aston Villa,GK,GK,6.5,0,0,0,Save Efficiency (Save%),65.5,62.7,2.8,Performing As Expected,,62.7,65.5,2.8
+Karl Darlow,Leeds United,GK,GK,22.0,0,0,0,Save Efficiency (Save%),70.0,68.1,1.9,Performing As Expected,,68.1,70.0,1.9
+Karl Darlow,Leeds United,GK,GK,22.0,0,0,0,Save Efficiency (Save%),70.0,68.1,1.9,Performing As Expected,,68.1,70.0,1.9
+Gianluigi Donnarumma,Manchester City,GK,GK,34.0,0,0,0,Save Efficiency (Save%),72.6,70.3,2.3,Performing As Expected,,70.3,72.6,2.3
+Gianluigi Donnarumma,Manchester City,GK,GK,34.0,0,0,0,Save Efficiency (Save%),72.6,70.3,2.3,Performing As Expected,,70.3,72.6,2.3
+Martin Dúbravka,Burnley,GK,GK,35.0,0,0,0,Save Efficiency (Save%),64.1,64.3,-0.2,Performing As Expected,,64.3,64.1,-0.2
+Martin Dúbravka,Burnley,GK,GK,35.0,0,0,0,Save Efficiency (Save%),64.1,64.3,-0.2,Performing As Expected,,64.3,64.1,-0.2
+Dean Henderson,Crystal Palace,GK,GK,37.0,0,0,0,Save Efficiency (Save%),67.3,68.0,-0.7,Performing As Expected,,68.0,67.3,-0.7
+Dean Henderson,Crystal Palace,GK,GK,37.0,0,0,0,Save Efficiency (Save%),67.3,68.0,-0.7,Performing As Expected,,68.0,67.3,-0.7
+Mads Hermansen,West Ham,GK,GK,18.0,0,0,0,Save Efficiency (Save%),65.9,66.3,-0.4,Performing As Expected,,66.3,65.9,-0.4
+Mads Hermansen,West Ham,GK,GK,18.0,0,0,0,Save Efficiency (Save%),65.9,66.3,-0.4,Performing As Expected,,66.3,65.9,-0.4
+Sam Johnstone,Wolves,GK,GK,12.0,0,0,0,Save Efficiency (Save%),61.9,62.1,-0.2,Performing As Expected,,62.1,61.9,-0.2
+Sam Johnstone,Wolves,GK,GK,12.0,0,0,0,Save Efficiency (Save%),61.9,62.1,-0.2,Performing As Expected,,62.1,61.9,-0.2
+Caoimhín Kelleher,Brentford,GK,GK,37.0,0,0,0,Save Efficiency (Save%),68.2,68.4,-0.2,Performing As Expected,,68.4,68.2,-0.2
+Caoimhín Kelleher,Brentford,GK,GK,37.0,0,0,0,Save Efficiency (Save%),68.2,68.4,-0.2,Performing As Expected,,68.4,68.2,-0.2
+Antonín Kinský,Tottenham,GK,GK,7.0,0,0,0,Save Efficiency (Save%),58.8,60.8,-2.0,Performing As Expected,,60.8,58.8,-2.0
+Senne Lammens,Manchester Utd,GK,GK,32.0,0,0,0,Save Efficiency (Save%),66.9,68.3,-1.4,Performing As Expected,,68.3,66.9,-1.4
+Senne Lammens,Manchester Utd,GK,GK,32.0,0,0,0,Save Efficiency (Save%),66.9,68.3,-1.4,Performing As Expected,,68.3,66.9,-1.4
+Bernd Leno,Fulham,GK,GK,38.0,0,0,0,Save Efficiency (Save%),65.8,67.8,-2.0,Performing As Expected,,67.8,65.8,-2.0
+Bernd Leno,Fulham,GK,GK,38.0,0,0,0,Save Efficiency (Save%),65.8,67.8,-2.0,Performing As Expected,,67.8,65.8,-2.0
+Giorgi Mamardashvili,Liverpool,GK,GK,9.6,0,0,0,Save Efficiency (Save%),64.7,63.4,1.3,Performing As Expected,,63.4,64.7,1.3
+Emiliano Martínez,Aston Villa,GK,GK,31.5,0,0,0,Save Efficiency (Save%),70.9,68.7,2.2,Performing As Expected,,68.7,70.9,2.2
+Emiliano Martínez,Aston Villa,GK,GK,31.5,0,0,0,Save Efficiency (Save%),70.9,68.7,2.2,Performing As Expected,,68.7,70.9,2.2
+Lucas Perri,Leeds United,GK,GK,16.0,0,0,0,Save Efficiency (Save%),56.7,57.5,-0.8,Performing As Expected,,57.5,56.7,-0.8
+Lucas Perri,Leeds United,GK,GK,16.0,0,0,0,Save Efficiency (Save%),56.7,57.5,-0.8,Performing As Expected,,57.5,56.7,-0.8
+Đorđe Petrović,Bournemouth,GK,GK,38.0,0,0,0,Save Efficiency (Save%),66.9,67.8,-0.9,Performing As Expected,,67.8,66.9,-0.9
+Đorđe Petrović,Bournemouth,GK,GK,38.0,0,0,0,Save Efficiency (Save%),66.9,67.8,-0.9,Performing As Expected,,67.8,66.9,-0.9
+Jordan Pickford,Everton,GK,GK,38.0,0,0,0,Save Efficiency (Save%),66.4,67.6,-1.2,Performing As Expected,,67.6,66.4,-1.2
+Jordan Pickford,Everton,GK,GK,38.0,0,0,0,Save Efficiency (Save%),66.4,67.6,-1.2,Performing As Expected,,67.6,66.4,-1.2
+Nick Pope,Newcastle,GK,GK,26.8,0,0,0,Save Efficiency (Save%),70.1,68.5,1.6,Performing As Expected,,68.5,70.1,1.6
+Nick Pope,Newcastle,GK,GK,26.8,0,0,0,Save Efficiency (Save%),70.1,68.5,1.6,Performing As Expected,,68.5,70.1,1.6
+Aaron Ramsdale,Newcastle,GK,GK,11.2,0,0,0,Save Efficiency (Save%),58.5,58.0,0.5,Performing As Expected,,58.0,58.5,0.5
+Aaron Ramsdale,Newcastle,GK,GK,11.2,0,0,0,Save Efficiency (Save%),58.5,58.0,0.5,Performing As Expected,,58.0,58.5,0.5
+David Raya,Arsenal,GK,GK,37.0,0,0,0,Save Efficiency (Save%),69.8,69.7,0.1,Performing As Expected,,69.7,69.8,0.1
+David Raya,Arsenal,GK,GK,37.0,0,0,0,Save Efficiency (Save%),69.8,69.7,0.1,Performing As Expected,,69.7,69.8,0.1
+Robin Roefs,Sunderland,GK,GK,35.0,0,0,0,Save Efficiency (Save%),70.1,68.5,1.6,Performing As Expected,,68.5,70.1,1.6
+Robin Roefs,Sunderland,GK,GK,35.0,0,0,0,Save Efficiency (Save%),70.1,68.5,1.6,Performing As Expected,,68.5,70.1,1.6
+José Sá,Wolves,GK,GK,23.0,0,0,0,Save Efficiency (Save%),63.7,63.5,0.2,Performing As Expected,,63.5,63.7,0.2
+José Sá,Wolves,GK,GK,23.0,0,0,0,Save Efficiency (Save%),63.7,63.5,0.2,Performing As Expected,,63.5,63.7,0.2
+Robert Sánchez,Chelsea,GK,GK,33.8,0,0,0,Save Efficiency (Save%),66.7,68.5,-1.8,Performing As Expected,,68.5,66.7,-1.8
+Robert Sánchez,Chelsea,GK,GK,33.8,0,0,0,Save Efficiency (Save%),66.7,68.5,-1.8,Performing As Expected,,68.5,66.7,-1.8
+Matz Sels,Nottingham,GK,GK,29.6,0,0,0,Save Efficiency (Save%),70.5,68.5,2.0,Performing As Expected,,68.5,70.5,2.0
+Matz Sels,Nottingham,GK,GK,29.6,0,0,0,Save Efficiency (Save%),70.5,68.5,2.0,Performing As Expected,,68.5,70.5,2.0
+Bart Verbruggen,Brighton,GK,GK,38.0,0,0,0,Save Efficiency (Save%),69.5,68.3,1.2,Performing As Expected,,68.3,69.5,1.2
+Bart Verbruggen,Brighton,GK,GK,38.0,0,0,0,Save Efficiency (Save%),69.5,68.3,1.2,Performing As Expected,,68.3,69.5,1.2
+Guglielmo Vicario,Tottenham,GK,GK,31.0,0,0,0,Save Efficiency (Save%),62.4,64.0,-1.6,Performing As Expected,,64.0,62.4,-1.6
+Guglielmo Vicario,Tottenham,GK,GK,31.0,0,0,0,Save Efficiency (Save%),62.4,64.0,-1.6,Performing As Expected,,64.0,62.4,-1.6

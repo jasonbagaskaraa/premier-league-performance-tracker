@@ -388,19 +388,20 @@ async function initPredictions() {
     const top30 = mlPlayers.slice(0, 30);
     const mlTbody = document.getElementById('ml-player-table-body');
     mlTbody.innerHTML = top30.map(p => {
-        const diffColor = p.ga_differential > 0 ? COLORS.emerald : p.ga_differential < -0.15 ? COLORS.amber : COLORS.indigo;
-        const statusClass = p.efficiency_status === 'Clinical Overperformer' ? 'overperformer' :
-            p.efficiency_status === 'High Potential / Underconverting' ? 'underperformer' : 'expected';
+        const diff = p.performance_differential ?? p.ga_differential ?? 0;
+        const diffColor = diff > 0 ? COLORS.emerald : diff < -0.15 ? COLORS.amber : COLORS.indigo;
+        const statusClass = (p.efficiency_status || '').includes('Overperformer') || (p.efficiency_status || '').includes('Rock') || (p.efficiency_status || '').includes('Elite') ? 'overperformer' :
+            (p.efficiency_status || '').includes('Under') || (p.efficiency_status || '').includes('Vulnerable') ? 'underperformer' : 'expected';
         return `<tr>
             <td style="color:${COLORS.sky};font-weight:600;">${p.Player}</td>
             <td>${p.Squad}</td>
             <td><span class="status-badge stable">${p.pos_group}</span></td>
             <td>${p['90s']}</td>
-            <td style="font-weight:700;color:${COLORS.amber}">${p['G+A']}</td>
-            <td>${p.actual_ga_per90?.toFixed(3) ?? '-'}</td>
-            <td>${p.predicted_ga_per90?.toFixed(3) ?? '-'}</td>
-            <td style="color:${diffColor};font-weight:700">${p.ga_differential > 0 ? '+' : ''}${p.ga_differential?.toFixed(3) ?? '-'}</td>
-            <td><span class="status-badge ${statusClass}">${p.efficiency_status?.replace('High Potential / Underconverting', 'High Potential') ?? '-'}</span></td>
+            <td style="font-size:12px;color:#94a3b8;">${p.target_metric_name || 'G+A/90'}</td>
+            <td style="font-weight:700;color:${COLORS.amber}">${p.actual_target_metric ?? p.actual_ga_per90 ?? '-'}</td>
+            <td>${p.predicted_target_metric ?? p.predicted_ga_per90 ?? '-'}</td>
+            <td style="color:${diffColor};font-weight:700">${diff > 0 ? '+' : ''}${diff}</td>
+            <td><span class="status-badge ${statusClass}">${p.efficiency_status ?? '-'}</span></td>
         </tr>`;
     }).join('');
 }
